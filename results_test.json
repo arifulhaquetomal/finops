@@ -1,0 +1,23 @@
+[
+    {
+        "id": null,
+        "prompt": "How do I write a fast Python function?",
+        "actual_cats": [
+            "Coding",
+            "Factual Q&A",
+            "Creative Writing",
+            "Optimization"
+        ],
+        "actual_label": "multi",
+        "success": null
+    },
+    {
+        "id": null,
+        "prompt": "Tell me a story about a robot.",
+        "actual_cats": [
+            "Creative Writing"
+        ],
+        "actual_label": "single",
+        "success": null
+    }
+]

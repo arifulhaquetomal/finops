@@ -1,0 +1,1542 @@
+[
+    {
+        "id": 1,
+        "prompt": "What is the speed of light in a vacuum?",
+        "category": "Factual Q&A",
+        "subcategory": "General Knowledge",
+        "label": "single"
+    },
+    {
+        "id": 2,
+        "prompt": "When did World War II end?",
+        "category": "Factual Q&A",
+        "subcategory": "General Knowledge",
+        "label": "single"
+    },
+    {
+        "id": 3,
+        "prompt": "What is the capital of Australia?",
+        "category": "Factual Q&A",
+        "subcategory": "General Knowledge",
+        "label": "single"
+    },
+    {
+        "id": 4,
+        "prompt": "How many chromosomes do humans have?",
+        "category": "Factual Q&A",
+        "subcategory": "Science",
+        "label": "single"
+    },
+    {
+        "id": 5,
+        "prompt": "What is the chemical formula for water?",
+        "category": "Factual Q&A",
+        "subcategory": "Science",
+        "label": "single"
+    },
+    {
+        "id": 6,
+        "prompt": "What is the boiling point of ethanol?",
+        "category": "Factual Q&A",
+        "subcategory": "Science",
+        "label": "single"
+    },
+    {
+        "id": 7,
+        "prompt": "Who invented the telephone?",
+        "category": "Factual Q&A",
+        "subcategory": "History",
+        "label": "single"
+    },
+    {
+        "id": 8,
+        "prompt": "In what year did the Berlin Wall fall?",
+        "category": "Factual Q&A",
+        "subcategory": "History",
+        "label": "single"
+    },
+    {
+        "id": 9,
+        "prompt": "Which country was the first to grant women the right to vote?",
+        "category": "Factual Q&A",
+        "subcategory": "History",
+        "label": "single"
+    },
+    {
+        "id": 10,
+        "prompt": "What is the longest river in the world?",
+        "category": "Factual Q&A",
+        "subcategory": "Geography",
+        "label": "single"
+    },
+    {
+        "id": 11,
+        "prompt": "How many countries are in Africa?",
+        "category": "Factual Q&A",
+        "subcategory": "Geography",
+        "label": "single"
+    },
+    {
+        "id": 12,
+        "prompt": "What does HTTP stand for?",
+        "category": "Factual Q&A",
+        "subcategory": "Technology",
+        "label": "single"
+    },
+    {
+        "id": 13,
+        "prompt": "What year was the first iPhone released?",
+        "category": "Factual Q&A",
+        "subcategory": "Technology",
+        "label": "single"
+    },
+    {
+        "id": 14,
+        "prompt": "What organ produces insulin in the human body?",
+        "category": "Factual Q&A",
+        "subcategory": "Biology",
+        "label": "single"
+    },
+    {
+        "id": 15,
+        "prompt": "What is Newton's second law of motion?",
+        "category": "Factual Q&A",
+        "subcategory": "Physics",
+        "label": "single"
+    },
+    {
+        "id": 16,
+        "prompt": "What is the value of pi to 5 decimal places?",
+        "category": "Factual Q&A",
+        "subcategory": "Mathematics",
+        "label": "single"
+    },
+    {
+        "id": 17,
+        "prompt": "What language is spoken in Brazil?",
+        "category": "Factual Q&A",
+        "subcategory": "Culture",
+        "label": "single"
+    },
+    {
+        "id": 18,
+        "prompt": "How many bones are in the adult human body?",
+        "category": "Factual Q&A",
+        "subcategory": "General Knowledge",
+        "label": "single"
+    },
+    {
+        "id": 19,
+        "prompt": "What is the atomic number of gold?",
+        "category": "Factual Q&A",
+        "subcategory": "Science",
+        "label": "single"
+    },
+    {
+        "id": 20,
+        "prompt": "Who wrote the Declaration of Independence?",
+        "category": "Factual Q&A",
+        "subcategory": "History",
+        "label": "single"
+    },
+    {
+        "id": 21,
+        "prompt": "Write a short story about a lighthouse keeper who discovers a message in a bottle.",
+        "category": "Creative Writing",
+        "subcategory": "Story",
+        "label": "single"
+    },
+    {
+        "id": 22,
+        "prompt": "Continue this story: 'The door opened slowly. No one was there.'",
+        "category": "Creative Writing",
+        "subcategory": "Story",
+        "label": "single"
+    },
+    {
+        "id": 23,
+        "prompt": "Write a 500-word science fiction story set on Mars in 2150.",
+        "category": "Creative Writing",
+        "subcategory": "Story",
+        "label": "single"
+    },
+    {
+        "id": 24,
+        "prompt": "Write a haiku about the first snow of winter.",
+        "category": "Creative Writing",
+        "subcategory": "Poem",
+        "label": "single"
+    },
+    {
+        "id": 25,
+        "prompt": "Write a rhyming poem about the feeling of nostalgia.",
+        "category": "Creative Writing",
+        "subcategory": "Poem",
+        "label": "single"
+    },
+    {
+        "id": 26,
+        "prompt": "Compose a free verse poem from the perspective of an old tree.",
+        "category": "Creative Writing",
+        "subcategory": "Poem",
+        "label": "single"
+    },
+    {
+        "id": 27,
+        "prompt": "Write a 2-minute dialogue between two strangers stuck in an elevator.",
+        "category": "Creative Writing",
+        "subcategory": "Script",
+        "label": "single"
+    },
+    {
+        "id": 28,
+        "prompt": "Write a dramatic monologue for a villain revealing their backstory.",
+        "category": "Creative Writing",
+        "subcategory": "Script",
+        "label": "single"
+    },
+    {
+        "id": 29,
+        "prompt": "Write an Instagram caption for a new coffee brand targeting millennials.",
+        "category": "Creative Writing",
+        "subcategory": "Marketing Copy",
+        "label": "single"
+    },
+    {
+        "id": 30,
+        "prompt": "Create a tagline for a sustainable clothing brand.",
+        "category": "Creative Writing",
+        "subcategory": "Marketing Copy",
+        "label": "single"
+    },
+    {
+        "id": 31,
+        "prompt": "Write a horror flash fiction story in under 200 words.",
+        "category": "Creative Writing",
+        "subcategory": "Story",
+        "label": "single"
+    },
+    {
+        "id": 32,
+        "prompt": "Write a children's story about a brave little robot who learns to feel emotions.",
+        "category": "Creative Writing",
+        "subcategory": "Story",
+        "label": "multi"
+    },
+    {
+        "id": 33,
+        "prompt": "Write a love poem in the style of Pablo Neruda.",
+        "category": "Creative Writing",
+        "subcategory": "Poem",
+        "label": "single"
+    },
+    {
+        "id": 34,
+        "prompt": "Write a product description for noise-cancelling headphones aimed at remote workers.",
+        "category": "Creative Writing",
+        "subcategory": "Marketing Copy",
+        "label": "single"
+    },
+    {
+        "id": 35,
+        "prompt": "Write the opening scene of a romantic comedy set in a bookshop.",
+        "category": "Creative Writing",
+        "subcategory": "Script",
+        "label": "single"
+    },
+    {
+        "id": 36,
+        "prompt": "Create a myth explaining why the sky is blue, in the style of ancient folklore.",
+        "category": "Creative Writing",
+        "subcategory": "Story",
+        "label": "single"
+    },
+    {
+        "id": 37,
+        "prompt": "Write a mystery story opening where a detective arrives at a crime scene.",
+        "category": "Creative Writing",
+        "subcategory": "Story",
+        "label": "single"
+    },
+    {
+        "id": 38,
+        "prompt": "Write a short email newsletter intro for a travel blog about Southeast Asia.",
+        "category": "Creative Writing",
+        "subcategory": "Marketing Copy",
+        "label": "single"
+    },
+    {
+        "id": 39,
+        "prompt": "Write a Python function that checks if a string is a palindrome.",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 40,
+        "prompt": "How do I read a CSV file in Python using pandas?",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 41,
+        "prompt": "Write a Python script that sends an HTTP GET request and prints the response.",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 42,
+        "prompt": "Create a Python class for a bank account with deposit and withdrawal methods.",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 43,
+        "prompt": "Write a JavaScript function that debounces user input.",
+        "category": "Coding",
+        "subcategory": "JavaScript",
+        "label": "single"
+    },
+    {
+        "id": 44,
+        "prompt": "How do I fetch data from an API in JavaScript using async/await?",
+        "category": "Coding",
+        "subcategory": "JavaScript",
+        "label": "single"
+    },
+    {
+        "id": 45,
+        "prompt": "Write a React component that displays a list of users fetched from an API.",
+        "category": "Coding",
+        "subcategory": "JavaScript",
+        "label": "single"
+    },
+    {
+        "id": 46,
+        "prompt": "Why is my Python code throwing a 'NoneType has no attribute' error?",
+        "category": "Coding",
+        "subcategory": "Debugging",
+        "label": "single"
+    },
+    {
+        "id": 47,
+        "prompt": "Fix this SQL query that's returning duplicate rows: SELECT name FROM users JOIN orders ON users.id = orders.user_id",
+        "category": "Coding",
+        "subcategory": "Debugging",
+        "label": "single"
+    },
+    {
+        "id": 48,
+        "prompt": "My JavaScript Promise is never resolving. Here's the code: [code block]. What's wrong?",
+        "category": "Coding",
+        "subcategory": "Debugging",
+        "label": "single"
+    },
+    {
+        "id": 49,
+        "prompt": "What is the best way to structure a REST API in Node.js for a large-scale project?",
+        "category": "Coding",
+        "subcategory": "Architecture",
+        "label": "single"
+    },
+    {
+        "id": 50,
+        "prompt": "Should I use microservices or a monolith for a startup app with 3 developers?",
+        "category": "Coding",
+        "subcategory": "Architecture",
+        "label": "single"
+    },
+    {
+        "id": 51,
+        "prompt": "How can I make this Python loop run faster? It's currently O(n²).",
+        "category": "Coding",
+        "subcategory": "Optimization",
+        "label": "single"
+    },
+    {
+        "id": 52,
+        "prompt": "What are best practices for optimizing SQL queries on large tables?",
+        "category": "Coding",
+        "subcategory": "Optimization",
+        "label": "single"
+    },
+    {
+        "id": 53,
+        "prompt": "Write a Python script to scrape product prices from a website and save them to a CSV.",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "multi"
+    },
+    {
+        "id": 54,
+        "prompt": "Explain the difference between a list and a tuple in Python with examples.",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 55,
+        "prompt": "What design pattern should I use to handle multiple payment providers in my app?",
+        "category": "Coding",
+        "subcategory": "Architecture",
+        "label": "single"
+    },
+    {
+        "id": 56,
+        "prompt": "How do closures work in JavaScript? Give me a practical example.",
+        "category": "Coding",
+        "subcategory": "JavaScript",
+        "label": "single"
+    },
+    {
+        "id": 57,
+        "prompt": "Explain why this Python function is slow and rewrite it more efficiently: [code block].",
+        "category": "Coding",
+        "subcategory": "Debugging",
+        "label": "multi"
+    },
+    {
+        "id": 58,
+        "prompt": "How do I use decorators in Python? Show me a real-world example.",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 59,
+        "prompt": "Solve for x: 3x + 7 = 22",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Algebra",
+        "label": "single"
+    },
+    {
+        "id": 60,
+        "prompt": "Simplify the expression: (x² - 9) / (x - 3)",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Algebra",
+        "label": "single"
+    },
+    {
+        "id": 61,
+        "prompt": "What is the mean, median, and mode of: 4, 7, 2, 7, 9, 1, 7?",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Statistics",
+        "label": "single"
+    },
+    {
+        "id": 62,
+        "prompt": "Explain the difference between standard deviation and variance.",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Statistics",
+        "label": "single"
+    },
+    {
+        "id": 63,
+        "prompt": "What is the derivative of f(x) = x³ - 4x + 2?",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Calculus",
+        "label": "single"
+    },
+    {
+        "id": 64,
+        "prompt": "Find the integral of 2x + 5 with respect to x.",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Calculus",
+        "label": "single"
+    },
+    {
+        "id": 65,
+        "prompt": "A train leaves city A at 60 mph. Another leaves city B at 80 mph toward city A. The cities are 420 miles apart. When do they meet?",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Word Problem",
+        "label": "single"
+    },
+    {
+        "id": 66,
+        "prompt": "If a shirt costs $40 after a 20% discount, what was the original price?",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Word Problem",
+        "label": "single"
+    },
+    {
+        "id": 67,
+        "prompt": "What is the probability of rolling two sixes in a row with a fair die?",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Probability",
+        "label": "single"
+    },
+    {
+        "id": 68,
+        "prompt": "In a class of 30 students, 12 like math and 15 like English, 5 like both. How many like neither?",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Probability",
+        "label": "single"
+    },
+    {
+        "id": 69,
+        "prompt": "Calculate the area of a circle with a diameter of 14 cm.",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Geometry",
+        "label": "single"
+    },
+    {
+        "id": 70,
+        "prompt": "What is the volume of a cylinder with radius 5 and height 10?",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Geometry",
+        "label": "single"
+    },
+    {
+        "id": 71,
+        "prompt": "Factor the quadratic: x² + 5x + 6",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Algebra",
+        "label": "single"
+    },
+    {
+        "id": 72,
+        "prompt": "Maria earns $1,500/month. She saves 20%. How much will she have saved after 3 years?",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Word Problem",
+        "label": "single"
+    },
+    {
+        "id": 73,
+        "prompt": "Is this argument valid? All birds can fly. Penguins are birds. Therefore penguins can fly.",
+        "category": "Logical Analysis",
+        "subcategory": "Argument Evaluation",
+        "label": "single"
+    },
+    {
+        "id": 74,
+        "prompt": "Identify the logical fallacy: 'You can't trust his opinion on climate change because he drives a truck.'",
+        "category": "Logical Analysis",
+        "subcategory": "Argument Evaluation",
+        "label": "single"
+    },
+    {
+        "id": 75,
+        "prompt": "What is wrong with this reasoning: 'This medicine worked for me, so it will work for everyone.'",
+        "category": "Logical Analysis",
+        "subcategory": "Argument Evaluation",
+        "label": "single"
+    },
+    {
+        "id": 76,
+        "prompt": "What are the strongest counterarguments to universal basic income?",
+        "category": "Logical Analysis",
+        "subcategory": "Critical Thinking",
+        "label": "single"
+    },
+    {
+        "id": 77,
+        "prompt": "What assumptions is this business plan making that could be wrong?",
+        "category": "Logical Analysis",
+        "subcategory": "Critical Thinking",
+        "label": "single"
+    },
+    {
+        "id": 78,
+        "prompt": "There are 3 boxes: one has gold, one has silver, one is empty. Each has a clue. Only one clue is true. Which box has the gold?",
+        "category": "Logical Analysis",
+        "subcategory": "Puzzle",
+        "label": "single"
+    },
+    {
+        "id": 79,
+        "prompt": "A man walks into a town on Friday, stays 3 days, and leaves on Friday. How?",
+        "category": "Logical Analysis",
+        "subcategory": "Puzzle",
+        "label": "single"
+    },
+    {
+        "id": 80,
+        "prompt": "Help me think through whether I should leave my stable job to start a business.",
+        "category": "Logical Analysis",
+        "subcategory": "Decision Analysis",
+        "label": "single"
+    },
+    {
+        "id": 81,
+        "prompt": "What framework should I use to evaluate two competing job offers?",
+        "category": "Logical Analysis",
+        "subcategory": "Decision Analysis",
+        "label": "single"
+    },
+    {
+        "id": 82,
+        "prompt": "Analyze this claim: 'Correlation between ice cream sales and crime rates proves ice cream causes crime.'",
+        "category": "Logical Analysis",
+        "subcategory": "Argument Evaluation",
+        "label": "single"
+    },
+    {
+        "id": 83,
+        "prompt": "Summarize this article in 3 bullet points: [article text]",
+        "category": "Summarization",
+        "subcategory": "Article",
+        "label": "single"
+    },
+    {
+        "id": 84,
+        "prompt": "Give me a TL;DR of this blog post about machine learning: [text]",
+        "category": "Summarization",
+        "subcategory": "Article",
+        "label": "single"
+    },
+    {
+        "id": 85,
+        "prompt": "Summarize the key ideas in 'Thinking, Fast and Slow' by Daniel Kahneman.",
+        "category": "Summarization",
+        "subcategory": "Book",
+        "label": "single"
+    },
+    {
+        "id": 86,
+        "prompt": "What are the main takeaways from 'The Lean Startup'?",
+        "category": "Summarization",
+        "subcategory": "Book",
+        "label": "single"
+    },
+    {
+        "id": 87,
+        "prompt": "Here are my meeting notes. Write a professional summary with action items: [notes]",
+        "category": "Summarization",
+        "subcategory": "Meeting / Notes",
+        "label": "single"
+    },
+    {
+        "id": 88,
+        "prompt": "Condense these 5 pages of research notes into a 1-page overview: [text]",
+        "category": "Summarization",
+        "subcategory": "Meeting / Notes",
+        "label": "single"
+    },
+    {
+        "id": 89,
+        "prompt": "Summarize this 10-page financial report into an executive summary: [report]",
+        "category": "Summarization",
+        "subcategory": "Report",
+        "label": "single"
+    },
+    {
+        "id": 90,
+        "prompt": "What is this research paper about and what did the study find? [abstract]",
+        "category": "Summarization",
+        "subcategory": "Article",
+        "label": "single"
+    },
+    {
+        "id": 91,
+        "prompt": "I'll paste a podcast transcript. Give me the 5 most important points discussed: [transcript]",
+        "category": "Summarization",
+        "subcategory": "Video / Transcript",
+        "label": "single"
+    },
+    {
+        "id": 92,
+        "prompt": "Summarize this terms and conditions document in plain English: [legal text]",
+        "category": "Summarization",
+        "subcategory": "Legal / Contract",
+        "label": "single"
+    },
+    {
+        "id": 93,
+        "prompt": "What are the key obligations in this contract I need to be aware of? [contract]",
+        "category": "Summarization",
+        "subcategory": "Legal / Contract",
+        "label": "single"
+    },
+    {
+        "id": 94,
+        "prompt": "Translate this paragraph into French: 'Technology is changing the world at an unprecedented pace.'",
+        "category": "Translation",
+        "subcategory": "English to Other",
+        "label": "single"
+    },
+    {
+        "id": 95,
+        "prompt": "How do you say 'Where is the nearest hospital?' in Japanese?",
+        "category": "Translation",
+        "subcategory": "English to Other",
+        "label": "single"
+    },
+    {
+        "id": 96,
+        "prompt": "Translate this business email into Spanish keeping the formal tone.",
+        "category": "Translation",
+        "subcategory": "English to Other",
+        "label": "single"
+    },
+    {
+        "id": 97,
+        "prompt": "Translate this Arabic text to English: [Arabic text]",
+        "category": "Translation",
+        "subcategory": "Other to English",
+        "label": "single"
+    },
+    {
+        "id": 98,
+        "prompt": "What does this German sentence mean in English: 'Ich verstehe das nicht ganz.'",
+        "category": "Translation",
+        "subcategory": "Other to English",
+        "label": "single"
+    },
+    {
+        "id": 99,
+        "prompt": "Adapt this marketing copy for an Arabic-speaking audience — culturally, not just word for word.",
+        "category": "Translation",
+        "subcategory": "Localization",
+        "label": "single"
+    },
+    {
+        "id": 100,
+        "prompt": "Translate these software error messages from English to Portuguese for our Brazilian users.",
+        "category": "Translation",
+        "subcategory": "Technical",
+        "label": "single"
+    },
+    {
+        "id": 101,
+        "prompt": "How would you translate 'user-friendly' naturally into Mandarin for a tech product?",
+        "category": "Translation",
+        "subcategory": "Localization",
+        "label": "single"
+    },
+    {
+        "id": 102,
+        "prompt": "Should I do a master's degree or get work experience first after my bachelor's?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Career",
+        "label": "single"
+    },
+    {
+        "id": 103,
+        "prompt": "I've been offered a promotion but it means relocating. What should I consider?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Career",
+        "label": "single"
+    },
+    {
+        "id": 104,
+        "prompt": "Is it better to pay off my student loan or invest in an index fund right now?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Finance",
+        "label": "single"
+    },
+    {
+        "id": 105,
+        "prompt": "What's your opinion on cryptocurrency as a long-term investment strategy?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Finance",
+        "label": "single"
+    },
+    {
+        "id": 106,
+        "prompt": "I'm feeling burned out. What are some practical strategies to recover?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Health",
+        "label": "single"
+    },
+    {
+        "id": 107,
+        "prompt": "Should I try intermittent fasting? What are the pros and cons?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Health",
+        "label": "single"
+    },
+    {
+        "id": 108,
+        "prompt": "What do you think is the most promising AI application in healthcare?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Technology",
+        "label": "single"
+    },
+    {
+        "id": 109,
+        "prompt": "Is Rust worth learning if I already know C++ and Python?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Technology",
+        "label": "single"
+    },
+    {
+        "id": 110,
+        "prompt": "My coworker keeps taking credit for my ideas in meetings. What should I do?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Relationships",
+        "label": "single"
+    },
+    {
+        "id": 111,
+        "prompt": "How do I set better boundaries with my manager without damaging the relationship?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Relationships",
+        "label": "single"
+    },
+    {
+        "id": 112,
+        "prompt": "What habits have the highest ROI for personal productivity?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Lifestyle",
+        "label": "single"
+    },
+    {
+        "id": 113,
+        "prompt": "I'm 35 and thinking of switching to a tech career. Is it too late?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Career",
+        "label": "single"
+    },
+    {
+        "id": 114,
+        "prompt": "Help me create a 30-day study plan for the AWS Solutions Architect exam.",
+        "category": "Planning / Strategy",
+        "subcategory": "Project Planning",
+        "label": "single"
+    },
+    {
+        "id": 115,
+        "prompt": "I need to launch a mobile app in 3 months. Help me build a product roadmap.",
+        "category": "Planning / Strategy",
+        "subcategory": "Project Planning",
+        "label": "single"
+    },
+    {
+        "id": 116,
+        "prompt": "Help me design a go-to-market strategy for a B2B SaaS product targeting HR teams.",
+        "category": "Planning / Strategy",
+        "subcategory": "Business Strategy",
+        "label": "single"
+    },
+    {
+        "id": 117,
+        "prompt": "What's the best way to grow an audience for a new developer blog from zero?",
+        "category": "Planning / Strategy",
+        "subcategory": "Business Strategy",
+        "label": "single"
+    },
+    {
+        "id": 118,
+        "prompt": "Help me plan a 10-day trip to Japan in April for two people on a $4,000 budget.",
+        "category": "Planning / Strategy",
+        "subcategory": "Personal Planning",
+        "label": "single"
+    },
+    {
+        "id": 119,
+        "prompt": "I want to get fit in 6 months. Design a realistic beginner workout and nutrition plan.",
+        "category": "Planning / Strategy",
+        "subcategory": "Personal Planning",
+        "label": "single"
+    },
+    {
+        "id": 120,
+        "prompt": "What's a good pricing strategy for a new SaaS product entering a competitive market?",
+        "category": "Planning / Strategy",
+        "subcategory": "Business Strategy",
+        "label": "single"
+    },
+    {
+        "id": 121,
+        "prompt": "Create an onboarding checklist for a new software engineer joining my team.",
+        "category": "Planning / Strategy",
+        "subcategory": "Project Planning",
+        "label": "single"
+    },
+    {
+        "id": 122,
+        "prompt": "Help me plan a 30-day content calendar for a LinkedIn company page in the fintech space.",
+        "category": "Planning / Strategy",
+        "subcategory": "Content Strategy",
+        "label": "single"
+    },
+    {
+        "id": 123,
+        "prompt": "My startup is running out of runway in 4 months. What are my strategic options?",
+        "category": "Planning / Strategy",
+        "subcategory": "Business Strategy",
+        "label": "single"
+    },
+    {
+        "id": 124,
+        "prompt": "Design a weekly schedule that balances a full-time job, studying for a certification, and exercise.",
+        "category": "Planning / Strategy",
+        "subcategory": "Personal Planning",
+        "label": "single"
+    },
+    {
+        "id": 125,
+        "prompt": "Here's a bar chart of monthly sales for 2024. What trends do you see?",
+        "category": "Data Interpretation",
+        "subcategory": "Chart / Graph",
+        "label": "single"
+    },
+    {
+        "id": 126,
+        "prompt": "Explain what this scatter plot is telling us about the relationship between hours studied and exam scores.",
+        "category": "Data Interpretation",
+        "subcategory": "Chart / Graph",
+        "label": "single"
+    },
+    {
+        "id": 127,
+        "prompt": "I have a dataset of customer purchases. What SQL query would show me top 10 customers by revenue?",
+        "category": "Data Interpretation",
+        "subcategory": "Data Analysis",
+        "label": "single"
+    },
+    {
+        "id": 128,
+        "prompt": "Analyze this CSV of web traffic data and tell me what's driving the spike on March 14th: [data]",
+        "category": "Data Interpretation",
+        "subcategory": "Data Analysis",
+        "label": "single"
+    },
+    {
+        "id": 129,
+        "prompt": "What does this income statement tell us about the company's profitability over 3 years?",
+        "category": "Data Interpretation",
+        "subcategory": "Financial Data",
+        "label": "single"
+    },
+    {
+        "id": 130,
+        "prompt": "Explain what a P/E ratio of 35 means for this stock in context of its industry.",
+        "category": "Data Interpretation",
+        "subcategory": "Financial Data",
+        "label": "single"
+    },
+    {
+        "id": 131,
+        "prompt": "I surveyed 200 users. 68% prefer dark mode. How significant is this finding?",
+        "category": "Data Interpretation",
+        "subcategory": "Survey / Research Data",
+        "label": "single"
+    },
+    {
+        "id": 132,
+        "prompt": "What conclusions can I draw from these A/B test results? Control: 4.2% conversion, Variant: 5.1%, n=1000 each.",
+        "category": "Data Interpretation",
+        "subcategory": "Survey / Research Data",
+        "label": "single"
+    },
+    {
+        "id": 133,
+        "prompt": "Here's a Python dataframe with missing values. How should I handle them before analysis?",
+        "category": "Data Interpretation",
+        "subcategory": "Data Analysis",
+        "label": "single"
+    },
+    {
+        "id": 134,
+        "prompt": "What does a bimodal distribution in this user age data suggest about our target audience?",
+        "category": "Data Interpretation",
+        "subcategory": "Chart / Graph",
+        "label": "single"
+    },
+    {
+        "id": 135,
+        "prompt": "Write a Python function that calculates compound interest and explain the math behind it.",
+        "category": "Coding + Mathematical Reasoning",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 136,
+        "prompt": "Explain why this Python function is slow and rewrite it more efficiently: [code block].",
+        "category": "Coding + Debugging",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 137,
+        "prompt": "What is machine learning and give me a brief history of how it developed.",
+        "category": "Factual Q&A + Summarization",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 138,
+        "prompt": "I want to become a data scientist in 12 months. What should I learn and in what order?",
+        "category": "Advisory + Planning",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 139,
+        "prompt": "Write a compelling LinkedIn summary for a software engineer transitioning into product management.",
+        "category": "Creative Writing + Advisory",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 140,
+        "prompt": "Is it rational to be optimistic about AI? Argue both sides then tell me your view.",
+        "category": "Logical Analysis + Advisory",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 141,
+        "prompt": "Here's a dataset of sales figures. Write Python code to visualize trends and explain what the chart shows.",
+        "category": "Data Interpretation + Coding",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 142,
+        "prompt": "What happened during the 2008 financial crisis and what were the main causes?",
+        "category": "Summarization + Factual Q&A",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 143,
+        "prompt": "Help me architect and then begin building a REST API for a task management app in FastAPI.",
+        "category": "Planning + Coding",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 144,
+        "prompt": "Write a product launch announcement and translate it into French and Spanish.",
+        "category": "Translation + Creative Writing",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 145,
+        "prompt": "Calculate the ROI of this marketing campaign using the data provided and tell me if it was worth it.",
+        "category": "Mathematical Reasoning + Data Interpretation",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 146,
+        "prompt": "My team wants to rewrite our backend in a new language. Analyze the risks and tell me if we should do it.",
+        "category": "Advisory + Logical Analysis",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 147,
+        "prompt": "Is nuclear energy actually safer than coal? Walk me through the data.",
+        "category": "Factual Q&A + Logical Analysis",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 148,
+        "prompt": "Design and implement a basic Mixture-of-Experts router in Python.",
+        "category": "Coding + Architecture",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 149,
+        "prompt": "Help me outline and write the first chapter of a business book about remote team management.",
+        "category": "Creative Writing + Planning",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 150,
+        "prompt": "Summarize this research paper on sleep and tell me what I should change about my sleep habits based on it.",
+        "category": "Summarization + Advisory",
+        "subcategory": "Mixed",
+        "label": "multi"
+    },
+    {
+        "id": 151,
+        "prompt": "Help.",
+        "category": "Ambiguous",
+        "subcategory": "Very Short",
+        "label": "edge"
+    },
+    {
+        "id": 152,
+        "prompt": "What should I do?",
+        "category": "Ambiguous",
+        "subcategory": "Very Short",
+        "label": "edge"
+    },
+    {
+        "id": 153,
+        "prompt": "Is it true that humans only use 10% of their brain?",
+        "category": "Factual Q&A",
+        "subcategory": "Verification",
+        "label": "edge"
+    },
+    {
+        "id": 154,
+        "prompt": "Tell me something interesting.",
+        "category": "Ambiguous",
+        "subcategory": "Conversational",
+        "label": "edge"
+    },
+    {
+        "id": 155,
+        "prompt": "What is the meaning of life?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Philosophical",
+        "label": "edge"
+    },
+    {
+        "id": 156,
+        "prompt": "If a tree falls in a forest and no one is there, does it make a sound?",
+        "category": "Logical Analysis",
+        "subcategory": "Philosophical",
+        "label": "edge"
+    },
+    {
+        "id": 157,
+        "prompt": "What happened in the news today?",
+        "category": "Factual Q&A",
+        "subcategory": "Recent Events",
+        "label": "edge"
+    },
+    {
+        "id": 158,
+        "prompt": "Fix my code.",
+        "category": "Coding",
+        "subcategory": "Ambiguous",
+        "label": "edge"
+    },
+    {
+        "id": 159,
+        "prompt": "Write me a realistic historical fiction scene set during the moon landing.",
+        "category": "Creative Writing + Factual Q&A",
+        "subcategory": "Mixed",
+        "label": "edge"
+    },
+    {
+        "id": 160,
+        "prompt": "I'm lost in my career. Where do I even start?",
+        "category": "Planning + Advisory",
+        "subcategory": "Mixed",
+        "label": "edge"
+    },
+    {
+        "id": 161,
+        "prompt": "Write a SQL query to find all customers who made more than 3 purchases in the last 30 days.",
+        "category": "Coding",
+        "subcategory": "SQL",
+        "label": "single"
+    },
+    {
+        "id": 162,
+        "prompt": "What is the difference between INNER JOIN and LEFT JOIN in SQL?",
+        "category": "Coding",
+        "subcategory": "SQL",
+        "label": "single"
+    },
+    {
+        "id": 163,
+        "prompt": "Write a bash script that backs up a directory and timestamps the archive.",
+        "category": "Coding",
+        "subcategory": "Bash / Shell",
+        "label": "single"
+    },
+    {
+        "id": 164,
+        "prompt": "How do I handle errors idiomatically in Go?",
+        "category": "Coding",
+        "subcategory": "Go",
+        "label": "single"
+    },
+    {
+        "id": 165,
+        "prompt": "Write a Go HTTP server that responds with the current time in JSON.",
+        "category": "Coding",
+        "subcategory": "Go",
+        "label": "single"
+    },
+    {
+        "id": 166,
+        "prompt": "Write a Dockerfile for a Python FastAPI application.",
+        "category": "Coding",
+        "subcategory": "DevOps",
+        "label": "single"
+    },
+    {
+        "id": 167,
+        "prompt": "How do I set up a basic CI/CD pipeline with GitHub Actions for a Node.js app?",
+        "category": "Coding",
+        "subcategory": "DevOps",
+        "label": "single"
+    },
+    {
+        "id": 168,
+        "prompt": "How do I safely store passwords in a Python web application?",
+        "category": "Coding",
+        "subcategory": "Security",
+        "label": "single"
+    },
+    {
+        "id": 169,
+        "prompt": "Explain the difference between event-driven architecture and request/response architecture.",
+        "category": "Coding",
+        "subcategory": "Architecture",
+        "label": "single"
+    },
+    {
+        "id": 170,
+        "prompt": "What is the GIL in Python and how does it affect multithreading?",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 171,
+        "prompt": "What is the difference between Type 1 and Type 2 diabetes?",
+        "category": "Factual Q&A",
+        "subcategory": "Medical",
+        "label": "single"
+    },
+    {
+        "id": 172,
+        "prompt": "What does the acronym ADHD stand for and what are its main symptoms?",
+        "category": "Factual Q&A",
+        "subcategory": "Medical",
+        "label": "single"
+    },
+    {
+        "id": 173,
+        "prompt": "What is the difference between copyright and trademark?",
+        "category": "Factual Q&A",
+        "subcategory": "Law",
+        "label": "single"
+    },
+    {
+        "id": 174,
+        "prompt": "What is GDP and how is it calculated?",
+        "category": "Factual Q&A",
+        "subcategory": "Economics",
+        "label": "single"
+    },
+    {
+        "id": 175,
+        "prompt": "What causes inflation?",
+        "category": "Factual Q&A",
+        "subcategory": "Economics",
+        "label": "single"
+    },
+    {
+        "id": 176,
+        "prompt": "How far away is the nearest star to Earth besides the Sun?",
+        "category": "Factual Q&A",
+        "subcategory": "Space",
+        "label": "single"
+    },
+    {
+        "id": 177,
+        "prompt": "What is a black hole and how does one form?",
+        "category": "Factual Q&A",
+        "subcategory": "Space",
+        "label": "single"
+    },
+    {
+        "id": 178,
+        "prompt": "What is the difference between weather and climate?",
+        "category": "Factual Q&A",
+        "subcategory": "Environment",
+        "label": "single"
+    },
+    {
+        "id": 179,
+        "prompt": "What is the greenhouse effect?",
+        "category": "Factual Q&A",
+        "subcategory": "Environment",
+        "label": "single"
+    },
+    {
+        "id": 180,
+        "prompt": "What is the difference between machine learning and deep learning?",
+        "category": "Factual Q&A",
+        "subcategory": "Technology",
+        "label": "single"
+    },
+    {
+        "id": 181,
+        "prompt": "I want to learn Arabic from scratch. Create a structured 6-month learning plan.",
+        "category": "Planning / Strategy",
+        "subcategory": "Learning Plan",
+        "label": "single"
+    },
+    {
+        "id": 182,
+        "prompt": "Help me plan a corporate team-building event for 50 people in a single day.",
+        "category": "Planning / Strategy",
+        "subcategory": "Event Planning",
+        "label": "single"
+    },
+    {
+        "id": 183,
+        "prompt": "How should I prioritize features for my MVP when I have limited engineering resources?",
+        "category": "Planning / Strategy",
+        "subcategory": "Business Strategy",
+        "label": "single"
+    },
+    {
+        "id": 184,
+        "prompt": "Help me create a simple monthly budget plan on a $3,500/month take-home salary.",
+        "category": "Planning / Strategy",
+        "subcategory": "Financial Planning",
+        "label": "single"
+    },
+    {
+        "id": 185,
+        "prompt": "Create a structured 90-day plan for someone transitioning from software engineering to machine learning.",
+        "category": "Planning / Strategy",
+        "subcategory": "Learning Plan",
+        "label": "single"
+    },
+    {
+        "id": 186,
+        "prompt": "Is it ethical for companies to use AI to screen job candidates without telling them?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Ethics",
+        "label": "single"
+    },
+    {
+        "id": 187,
+        "prompt": "Should AI-generated art be eligible for copyright protection?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Ethics",
+        "label": "single"
+    },
+    {
+        "id": 188,
+        "prompt": "What are the biggest risks of large language models being deployed at scale?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Technology",
+        "label": "single"
+    },
+    {
+        "id": 189,
+        "prompt": "Is a computer science degree still worth it in the age of AI and bootcamps?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Career",
+        "label": "single"
+    },
+    {
+        "id": 190,
+        "prompt": "Should a bootstrapped startup take VC funding? What are the real trade-offs?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Business",
+        "label": "single"
+    },
+    {
+        "id": 191,
+        "prompt": "Write a professional resignation letter that is warm but clear.",
+        "category": "Creative Writing",
+        "subcategory": "Email / Letter",
+        "label": "single"
+    },
+    {
+        "id": 192,
+        "prompt": "Write a cold outreach email to a potential mentor in the tech industry.",
+        "category": "Creative Writing",
+        "subcategory": "Email / Letter",
+        "label": "single"
+    },
+    {
+        "id": 193,
+        "prompt": "Write 5 tweet ideas for a developer advocate promoting a new open-source tool.",
+        "category": "Creative Writing",
+        "subcategory": "Social Media",
+        "label": "single"
+    },
+    {
+        "id": 194,
+        "prompt": "Write an introduction for a blog post titled: 'Why Every Developer Should Learn SQL.'",
+        "category": "Creative Writing",
+        "subcategory": "Blog / Article",
+        "label": "single"
+    },
+    {
+        "id": 195,
+        "prompt": "Write a compelling opening paragraph for an article about the future of remote work.",
+        "category": "Creative Writing",
+        "subcategory": "Blog / Article",
+        "label": "single"
+    },
+    {
+        "id": 196,
+        "prompt": "Our churn rate went from 3% to 7% in Q3. What are the most likely causes and how do I investigate?",
+        "category": "Data Interpretation",
+        "subcategory": "Business Metrics",
+        "label": "single"
+    },
+    {
+        "id": 197,
+        "prompt": "What does a customer acquisition cost of $85 mean if our average revenue per user is $240/year?",
+        "category": "Data Interpretation",
+        "subcategory": "Business Metrics",
+        "label": "single"
+    },
+    {
+        "id": 198,
+        "prompt": "Map out the second and third-order consequences of remote work becoming the default globally.",
+        "category": "Logical Analysis",
+        "subcategory": "System Thinking",
+        "label": "single"
+    },
+    {
+        "id": 199,
+        "prompt": "What are the unintended consequences of making all education free globally?",
+        "category": "Logical Analysis",
+        "subcategory": "System Thinking",
+        "label": "single"
+    },
+    {
+        "id": 200,
+        "prompt": "If I invest $500/month at 7% annual return for 30 years, how much will I have? Show the math.",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Financial Math",
+        "label": "single"
+    },
+    {
+        "id": 201,
+        "prompt": "Explain Python's asyncio library and when you'd use it over threading.",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 202,
+        "prompt": "What is the difference between REST, GraphQL, and gRPC APIs?",
+        "category": "Coding",
+        "subcategory": "Architecture",
+        "label": "single"
+    },
+    {
+        "id": 203,
+        "prompt": "What are the 5 core concepts from 'Clean Code' by Robert Martin?",
+        "category": "Summarization",
+        "subcategory": "Book",
+        "label": "single"
+    },
+    {
+        "id": 204,
+        "prompt": "What is the transformer architecture in machine learning?",
+        "category": "Factual Q&A",
+        "subcategory": "AI / ML",
+        "label": "single"
+    },
+    {
+        "id": 205,
+        "prompt": "What is the difference between supervised and unsupervised learning?",
+        "category": "Factual Q&A",
+        "subcategory": "AI / ML",
+        "label": "single"
+    },
+    {
+        "id": 206,
+        "prompt": "Build me a competitive analysis framework for entering the project management software market.",
+        "category": "Planning / Strategy",
+        "subcategory": "Business Strategy",
+        "label": "single"
+    },
+    {
+        "id": 207,
+        "prompt": "Should I use PostgreSQL or MongoDB for a social media application with complex user relationships?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Technology",
+        "label": "single"
+    },
+    {
+        "id": 208,
+        "prompt": "Write a dystopian short story where AI has replaced all creative jobs.",
+        "category": "Creative Writing",
+        "subcategory": "Story",
+        "label": "single"
+    },
+    {
+        "id": 209,
+        "prompt": "Evaluate this product strategy: 'We should build every feature users request to maximize satisfaction.'",
+        "category": "Logical Analysis",
+        "subcategory": "Argument Evaluation",
+        "label": "single"
+    },
+    {
+        "id": 210,
+        "prompt": "What sample size do I need to detect a 5% conversion rate improvement with 95% confidence?",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Statistics",
+        "label": "single"
+    },
+    {
+        "id": 211,
+        "prompt": "Our NPS score dropped from 42 to 28 after a product update. How do I diagnose the cause?",
+        "category": "Data Interpretation",
+        "subcategory": "Business Metrics",
+        "label": "single"
+    },
+    {
+        "id": 212,
+        "prompt": "What are Python generators and when should I use them instead of lists?",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 213,
+        "prompt": "Translate these UI labels into German for our enterprise software: 'Dashboard', 'Settings', 'User Management'.",
+        "category": "Translation",
+        "subcategory": "Technical",
+        "label": "single"
+    },
+    {
+        "id": 214,
+        "prompt": "How do I negotiate a salary increase when I haven't had a performance review in 2 years?",
+        "category": "Advisory / Opinion",
+        "subcategory": "Career",
+        "label": "single"
+    },
+    {
+        "id": 215,
+        "prompt": "Design a YouTube channel strategy for a developer teaching cloud architecture from scratch.",
+        "category": "Planning / Strategy",
+        "subcategory": "Content Strategy",
+        "label": "single"
+    },
+    {
+        "id": 216,
+        "prompt": "Write a 60-second explainer script for a product demo video about an AI scheduling tool.",
+        "category": "Creative Writing",
+        "subcategory": "Script",
+        "label": "single"
+    },
+    {
+        "id": 217,
+        "prompt": "What is the difference between TCP and UDP protocols?",
+        "category": "Factual Q&A",
+        "subcategory": "Networking",
+        "label": "single"
+    },
+    {
+        "id": 218,
+        "prompt": "Write a Python context manager that measures and prints the execution time of a code block.",
+        "category": "Coding",
+        "subcategory": "Python",
+        "label": "single"
+    },
+    {
+        "id": 219,
+        "prompt": "Help me build a decision matrix to evaluate three cloud providers: AWS, Azure, and GCP.",
+        "category": "Logical Analysis",
+        "subcategory": "Decision Analysis",
+        "label": "single"
+    },
+    {
+        "id": 220,
+        "prompt": "Solve this system of equations: 2x + y = 10, x - y = 2",
+        "category": "Mathematical Reasoning",
+        "subcategory": "Algebra",
+        "label": "single"
+    }
+]
