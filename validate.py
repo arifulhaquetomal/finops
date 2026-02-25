@@ -1,119 +1,78 @@
-import json      # Standard library for parsing and processing JSON data files.
-import sys       # System library to manage system-level operations like script arguments.
-import argparse  # Module for building a professional and flexible command line interface.
-from router import SmartFilter  # Import the SmartFilter (Small Neuron) from our routing module.
+import json      # Standard library for parsing JSON data files.
+import sys       # System library to handle potential exit codes or arguments.
+import argparse  # Module for creating a professional command-line interface.
+from router import SmartFilter  # Importing our classifier from the other file.
 
 def validate(filename):
     """
-    The Validation Engine with high verbosity. 
-    It communicates every single step of the 'guessing game' to the user.
+    The main validation engine. It compares the router's 'guesses' 
+    against the professional ground truth data.
     """
-    print(f"\n[STEP 1] Starting validation session for: {filename}")
-    print(f"--- Accessing file system to load data...")
-    
     try:
-        # Attempt to open the target JSON file.
+        # Open the specified file (either the reference or a test file).
         with open(filename, "r") as f:
-            dataset = json.load(f)  # Convert the file content into a Python list of dictionaries.
-        print(f"--- Data loaded successfully. Detected {len(dataset)} entries to process.")
+            dataset = json.load(f)  # Load the entire list of prompts into memory.
     except FileNotFoundError:
-        # Inform the user if the specified file path is incorrect.
-        print(f"!!! Error: File '{filename}' was not found. Please check the path.")
+        # Safety check: if the user types a filenames that doesn't exist.
+        print(f"Error: {filename} not found.")
         return
     except json.JSONDecodeError:
-        # Catch syntax errors in the JSON file (like a missing comma or bracket).
-        print(f"!!! Error: JSON syntax is broken in '{filename}'. Validation aborted.")
+        # Safety check: if the JSON syntax is broken (missing comma, etc).
+        print(f"Error: {filename} is not a valid JSON file.")
         return
 
-    # If the list is empty, there is nothing for the Brain to classify.
+    # If the file is just '[]', there's nothing for us to classify.
     if not dataset:
-        print(f"--- Warning: '{filename}' contains no data. Nothing to do.")
+        print(f"File {filename} is empty. No prompts to test.")
         return
         
-    print(f"\n[STEP 2] Wake-up sequence: Initializing SmartFilter neuron...")
-    smart_filter = SmartFilter()  # Create an active instance of our rule-based router.
+    smart_filter = SmartFilter()  # Create an instance of our rule-based neuron.
+    success_count = 0             # Counter for 'correct guesses' against ground truth.
+    total = len(dataset)          # Total number of items we need to process.
     
-    success_count = 0             # Track the number of times the router matched the human labels.
-    total = len(dataset)          # Keep track of the total number of prompts for percentage calculation.
-    results = []                  # Store the logs of every transaction for the final report.
+    results = []  # List to store the detailed log of every single test run.
     
-    print(f"\n[STEP 3] Beginning the 'Guessing Game' (Neural Routing)...")
-    print("=" * 60)
-
-    # Begin iterating through every individual entry in the dataset.
-    for i, item in enumerate(dataset):
-        # Retrieve the human-written prompt string.
+    # START OF THE "GUESSING GAME" LOOP
+    for item in dataset:
+        # Extract the human prompt from the JSON object.
         prompt = item.get("prompt", "")
-        item_id = item.get("id", i + 1)
-        
         if not prompt:
-            # If the entry exists but has no text, skip it to avoid errors.
-            print(f"Skipping entry ID {item_id}: No prompt found.")
+            # If a JSON entry is missing a 'prompt' key, skip it.
             continue
             
-        print(f"Processing Prompt #{item_id}: \"{prompt[:60]}...\"")
-        
-        # ACTIVATE ROUTER: The neuron scans the prompt using its internal regex patterns.
-        print(f"  -> Thinking... (Scanning keywords and identifying experts)")
+        # STEP 1: MAKE A GUESS. Pass the prompt to the SmartFilter.
         actual = smart_filter.classify(prompt)
         
-        # LOG INFERENCE: Show exactly what the router decided for this prompt.
-        print(f"  -> Router Decision: {actual['label'].upper()}")
-        print(f"  -> Expert Pathways: {', '.join(actual['categories'])}")
-        
-        # EXTRACT GROUND TRUTH: Look for the 'answer key' in the user's data.
-        expected_cat_str = item.get("category")
-        
-        # HANDLE INFERENCE-ONLY MODE: If there's no ground truth, we just skip comparison.
-        if expected_cat_str is None:
-            print(f"  -> Result: Completed (Inference Mode - No ground truth found)")
-            results.append({
-                "id": item_id,
-                "prompt": prompt,
-                "actual_cats": list(actual["categories"]),
-                "actual_label": actual["label"],
-                "success": None  # Indicates this was a test, not an accuracy validation.
-            })
-            print("-" * 40)
-            continue
-
-        # GROUND TRUTH COMPARISON: The 'Guessing Game' comparison logic.
-        print(f"  -> Verification: Comparing against ground truth ('{expected_cat_str}')")
-        
-        # Parse ground truth categories (handling the '+' multi-label notation).
+        # STEP 2: FIND THE ANSWER KEY.
+        expected_cat_str = item.get("category", "Ambiguous")
         expected_cats = set([c.strip() for c in expected_cat_str.split("+")])
         
-        # Mapping for Ambiguous consistency across datasets.
+        # Special mapping for the 'Ambiguous' pathway.
         if expected_cat_str == "Ambiguous":
              expected_cats = set(["Ambiguous"])
 
-        # The router's final triggered expert pathways.
+        # The actual experts the router triggered.
         actual_cats = set(actual["categories"])
+        is_success = False  
         
-        is_success = False  # Assume fail until a match is confirmed.
-        label = item.get("label", "single") # Type of task (single expert vs multi expert).
-        
-        # LOGIC FOR 'MATCHING'
+        # Determine success based on the manual labels in the Answer Key.
+        label = item.get("label", "single")
         if label == "edge":
-            # Edge match: Both must agree it's an ambiguous/edge case.
             is_success = actual["label"] == "edge"
         elif label == "multi":
-            # Multi match: Both must agree it's multi-layered + at least 1 expert expert overlaps.
             is_success = (actual["label"] == "multi") and (len(expected_cats.intersection(actual_cats)) > 0)
         else:
-            # Single match: The router's guess overlaps with the human labeling.
             is_success = any(cat in actual_cats for cat in expected_cats)
             
-        # Record score.
         if is_success:
-            print(f"  -> [MATCH FOUND] System synchronized with human judgment.")
             success_count += 1
-        else:
-            print(f"  -> [MISMATCH] Systems diverged on this specific routing path.")
             
-        # Append detailed data for the JSON result log.
+        # Log the result of this specific "Guess".
+        print(f"ID {item.get('id', '?')}: {'CORRECT' if is_success else 'WRONG'} (Goal: {expected_cat_str} | Router Guess: {', '.join(actual_cats)})")
+            
+        # Log entry for results file.
         results.append({
-            "id": item_id,
+            "id": item.get("id"),
             "prompt": prompt,
             "expected_cat": expected_cat_str,
             "actual_cats": list(actual_cats),
@@ -121,41 +80,25 @@ def validate(filename):
             "actual_label": actual["label"],
             "success": is_success
         })
-        print("-" * 40)
         
-    # FINAL ANALYTICS CALCULATION
-    print("\n[STEP 4] Finalizing Benchmark Research...")
-    
-    # Calculate the percentage of 'correct' guesses.
+    # FINAL BENCHMARK CALCULATION
     accuracy = (success_count / total) * 100 if total > 0 else 0
+    print(f"\nFinal Statistics for {filename}:")
+    print(f"Benchmark Score: {accuracy:.2f}% ({success_count}/{total} correct guesses)")
     
-    # Check if we were doing verification or just real-time inference.
-    has_ground_truth = any(r["success"] is not None for r in results)
-    
-    print("=" * 60)
-    print(f"ANALYSIS COMPLETE FOR: {filename}")
-    
-    if has_ground_truth:
-        # Present the final accuracy score if validation was possible.
-        print(f"Overall Accuracy: {accuracy:.2f}%")
-        print(f"Correct Routings: {success_count} / {total}")
-    else:
-        # Case for testing test.json where no answers were provided.
-        print(f"Processing Finished: {total} prompts routed through the expert gateway.")
-    
-    # ARCHIVING RESULTS: Save the full trace to a local JSON file for further review.
+    # Save results to disk.
     output_name = f"results_{filename}"
     with open(output_name, "w") as f:
         json.dump(results, f, indent=4)
-    print(f"--- Full architectural trace saved to: {output_name}")
-    print("=" * 60)
+    print(f"Detailed performance logs saved to {output_name}")
 
 if __name__ == "__main__":
-    # SETUP COMMAND LINE INTERFACE
-    parser = argparse.ArgumentParser(description="FinOps Smart Filter Benchmark Tool")
-    # File argument (optional). If not given, we default to our 220-prompt ground truth.
-    parser.add_argument("file", nargs="?", default="dataset.json", help="JSON dataset to test (default: dataset.json)")
+    # COMMAND LINE INTERFACE SETUP
+    parser = argparse.ArgumentParser(description="Validate the Smart Filter.")
+    # Add an optional argument for the filename.
+    # Default: dataset.json (the reference ground truth).
+    parser.add_argument("file", nargs="?", default="dataset.json", help="JSON file to validate (default: dataset.json)")
     args = parser.parse_args()
     
-    # Launch validation.
+    # Execute the validation engine.
     validate(args.file)

@@ -376,8 +376,8 @@
         "expected_cat": "Creative Writing",
         "actual_cats": [
             "Mathematical Reasoning",
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -433,8 +433,8 @@
         "prompt": "Write a Python function that checks if a string is a palindrome.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -445,9 +445,9 @@
         "prompt": "How do I read a CSV file in Python using pandas?",
         "expected_cat": "Coding",
         "actual_cats": [
+            "Data Interpretation",
             "Factual Q&A",
-            "Coding",
-            "Data Interpretation"
+            "Coding"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -458,8 +458,8 @@
         "prompt": "Write a Python script that sends an HTTP GET request and prints the response.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -481,8 +481,8 @@
         "prompt": "Write a JavaScript function that debounces user input.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -493,11 +493,11 @@
         "prompt": "How do I fetch data from an API in JavaScript using async/await?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Coding",
-            "Data Interpretation",
-            "Creative Writing",
             "Mathematical Reasoning",
-            "Factual Q&A"
+            "Factual Q&A",
+            "Coding",
+            "Creative Writing",
+            "Data Interpretation"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -508,8 +508,8 @@
         "prompt": "Write a React component that displays a list of users fetched from an API.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -545,8 +545,8 @@
         "expected_cat": "Coding",
         "actual_cats": [
             "Factual Q&A",
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -570,8 +570,8 @@
         "prompt": "Should I use microservices or a monolith for a startup app with 3 developers?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Coding"
+            "Coding",
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -607,9 +607,9 @@
         "prompt": "Write a Python script to scrape product prices from a website and save them to a CSV.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
+            "Data Interpretation",
             "Coding",
-            "Data Interpretation"
+            "Creative Writing"
         ],
         "expected_label": "multi",
         "actual_label": "multi",
@@ -644,8 +644,8 @@
         "expected_cat": "Coding",
         "actual_cats": [
             "Factual Q&A",
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -656,8 +656,8 @@
         "prompt": "Explain why this Python function is slow and rewrite it more efficiently: [code block].",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Debugging",
             "Optimization",
+            "Debugging",
             "Coding"
         ],
         "expected_label": "multi",
@@ -854,9 +854,9 @@
         "prompt": "Identify the logical fallacy: 'You can't trust his opinion on climate change because he drives a truck.'",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Advisory / Opinion",
+            "Logical Analysis",
             "Coding",
-            "Logical Analysis"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -904,8 +904,8 @@
         "prompt": "There are 3 boxes: one has gold, one has silver, one is empty. Each has a clue. Only one clue is true. Which box has the gold?",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Coding",
-            "Logical Analysis"
+            "Logical Analysis",
+            "Coding"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -986,10 +986,10 @@
         "prompt": "Summarize the key ideas in 'Thinking, Fast and Slow' by Daniel Kahneman.",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Debugging",
             "Optimization",
             "Summarization",
-            "Logical Analysis"
+            "Logical Analysis",
+            "Debugging"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1061,8 +1061,8 @@
         "expected_cat": "Summarization",
         "actual_cats": [
             "Summarization",
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1096,8 +1096,8 @@
         "prompt": "Translate this paragraph into French: 'Technology is changing the world at an unprecedented pace.'",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Translation",
-            "Data Interpretation"
+            "Data Interpretation",
+            "Translation"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1108,8 +1108,8 @@
         "prompt": "How do you say 'Where is the nearest hospital?' in Japanese?",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Translation",
-            "Factual Q&A"
+            "Factual Q&A",
+            "Translation"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1165,8 +1165,8 @@
         "prompt": "Translate these software error messages from English to Portuguese for our Brazilian users.",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Translation",
-            "Debugging"
+            "Debugging",
+            "Translation"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1227,8 +1227,8 @@
         "actual_cats": [
             "Mathematical Reasoning",
             "Factual Q&A",
-            "Planning / Strategy",
-            "Advisory / Opinion"
+            "Advisory / Opinion",
+            "Planning / Strategy"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1277,8 +1277,8 @@
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
             "Mathematical Reasoning",
-            "Advisory / Opinion",
-            "Coding"
+            "Coding",
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1463,8 +1463,8 @@
         "prompt": "Here's a bar chart of monthly sales for 2024. What trends do you see?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
-            "Data Interpretation"
+            "Data Interpretation",
+            "Factual Q&A"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1475,8 +1475,8 @@
         "prompt": "Explain what this scatter plot is telling us about the relationship between hours studied and exam scores.",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
-            "Data Interpretation"
+            "Data Interpretation",
+            "Factual Q&A"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1487,9 +1487,9 @@
         "prompt": "I have a dataset of customer purchases. What SQL query would show me top 10 customers by revenue?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
+            "Data Interpretation",
             "Factual Q&A",
-            "Coding",
-            "Data Interpretation"
+            "Coding"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1500,8 +1500,8 @@
         "prompt": "Analyze this CSV of web traffic data and tell me what's driving the spike on March 14th: [data]",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
             "Data Interpretation",
+            "Factual Q&A",
             "Logical Analysis"
         ],
         "expected_label": "single",
@@ -1513,8 +1513,8 @@
         "prompt": "What does this income statement tell us about the company's profitability over 3 years?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
-            "Data Interpretation"
+            "Data Interpretation",
+            "Factual Q&A"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1562,9 +1562,9 @@
         "prompt": "Here's a Python dataframe with missing values. How should I handle them before analysis?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
+            "Data Interpretation",
             "Factual Q&A",
             "Coding",
-            "Data Interpretation",
             "Advisory / Opinion"
         ],
         "expected_label": "single",
@@ -1576,8 +1576,8 @@
         "prompt": "What does a bimodal distribution in this user age data suggest about our target audience?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
-            "Data Interpretation"
+            "Data Interpretation",
+            "Factual Q&A"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1589,8 +1589,8 @@
         "expected_cat": "Coding + Mathematical Reasoning",
         "actual_cats": [
             "Mathematical Reasoning",
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "multi",
         "actual_label": "multi",
@@ -1601,8 +1601,8 @@
         "prompt": "Explain why this Python function is slow and rewrite it more efficiently: [code block].",
         "expected_cat": "Coding + Debugging",
         "actual_cats": [
-            "Debugging",
             "Optimization",
+            "Debugging",
             "Coding"
         ],
         "expected_label": "multi",
@@ -1627,8 +1627,8 @@
         "prompt": "I want to become a data scientist in 12 months. What should I learn and in what order?",
         "expected_cat": "Advisory + Planning",
         "actual_cats": [
-            "Factual Q&A",
             "Data Interpretation",
+            "Factual Q&A",
             "Advisory / Opinion"
         ],
         "expected_label": "multi",
@@ -1662,9 +1662,9 @@
         "prompt": "Here's a dataset of sales figures. Write Python code to visualize trends and explain what the chart shows.",
         "expected_cat": "Data Interpretation + Coding",
         "actual_cats": [
+            "Data Interpretation",
             "Factual Q&A",
-            "Coding",
-            "Data Interpretation"
+            "Coding"
         ],
         "expected_label": "multi",
         "actual_label": "multi",
@@ -1722,9 +1722,9 @@
         "prompt": "My team wants to rewrite our backend in a new language. Analyze the risks and tell me if we should do it.",
         "expected_cat": "Advisory + Logical Analysis",
         "actual_cats": [
-            "Debugging",
             "Factual Q&A",
-            "Logical Analysis"
+            "Logical Analysis",
+            "Debugging"
         ],
         "expected_label": "multi",
         "actual_label": "multi",
@@ -1894,8 +1894,8 @@
         "expected_cat": "Coding",
         "actual_cats": [
             "Factual Q&A",
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1918,8 +1918,8 @@
         "prompt": "Write a bash script that backs up a directory and timestamps the archive.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1930,8 +1930,8 @@
         "prompt": "How do I handle errors idiomatically in Go?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Debugging",
             "Factual Q&A",
+            "Debugging",
             "Coding"
         ],
         "expected_label": "single",
@@ -1943,8 +1943,8 @@
         "prompt": "Write a Go HTTP server that responds with the current time in JSON.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -1956,8 +1956,8 @@
         "expected_cat": "Coding",
         "actual_cats": [
             "Optimization",
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -2277,8 +2277,8 @@
         "prompt": "Write an introduction for a blog post titled: 'Why Every Developer Should Learn SQL.'",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -2289,8 +2289,8 @@
         "prompt": "Write a compelling opening paragraph for an article about the future of remote work.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Creative Writing",
-            "Data Interpretation"
+            "Data Interpretation",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -2301,8 +2301,8 @@
         "prompt": "Our churn rate went from 3% to 7% in Q3. What are the most likely causes and how do I investigate?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
-            "Data Interpretation"
+            "Data Interpretation",
+            "Factual Q&A"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -2373,9 +2373,9 @@
         "prompt": "What is the difference between REST, GraphQL, and gRPC APIs?",
         "expected_cat": "Coding",
         "actual_cats": [
+            "Data Interpretation",
             "Factual Q&A",
-            "Coding",
-            "Data Interpretation"
+            "Coding"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -2387,8 +2387,8 @@
         "expected_cat": "Summarization",
         "actual_cats": [
             "Factual Q&A",
-            "Summarization",
-            "Coding"
+            "Coding",
+            "Summarization"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -2432,8 +2432,8 @@
         "prompt": "Should I use PostgreSQL or MongoDB for a social media application with complex user relationships?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Coding"
+            "Coding",
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -2541,8 +2541,8 @@
         "expected_cat": "Creative Writing",
         "actual_cats": [
             "Mathematical Reasoning",
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -2564,8 +2564,8 @@
         "prompt": "Write a Python context manager that measures and prints the execution time of a code block.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Coding"
+            "Coding",
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "multi",
