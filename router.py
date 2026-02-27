@@ -7,132 +7,134 @@ class SmartFilter:
     """
     def __init__(self):
         # Dictionary defining 'Expert Pathways' and the specific keywords (regex) that trigger them.
-        self.patterns = {
+        raw_patterns = {
             # Coding: Scans for language names, technical verbs, and architectural terms.
             "Coding": [
-                r"python", r"javascript", r"sql", r"code", r"function", r"debug", r"script", r"docker", r"api", r"react", 
-                r"node\.js", r"go", r"rust", r"bash", r"programming", r"dataframe", r"rest api", r"microservices", 
-                r"monolith", r"decorator", r"closure", r"asyncio", r"typescript", r"java", r"cpp", r"c#", r"kotlin", 
-                r"swift", r"refactor", r"unittest", r"git", r"kubernetes", r"graphql", r"frontend", r"backend", 
-                r"fullstack", r"algorithm", r"data structure", r"recursion", r"inheritance", r"polymorphism"
+                r"\bpython\b", r"\bjavascript\b", r"\bsql\b", r"\bcode\b", r"\bfunction\b", r"\bdebug\b", r"\bscript\b", r"\bdocker\b", r"\bapi\b", r"\breact\b", 
+                r"\bnode\.js\b", r"\bgo\b", r"\brust\b", r"\bbash\b", r"\bprogramming\b", r"\bdataframe\b", r"\brest api\b", r"\bmicroservices\b", 
+                r"\bmonolith\b", r"\bdecorator\b", r"\bclosure\b", r"\basyncio\b", r"\btypescript\b", r"\bjava\b", r"\bcpp\b", r"\bc#\b", r"\bkotlin\b", 
+                r"\bswift\b", r"\brefactor\b", r"\bunittest\b", r"\bgit\b", r"\bkubernetes\b", r"\bgraphql\b", r"\bfrontend\b", r"\bbackend\b", 
+                r"\bfullstack\b", r"\balgorithm\b", r"\bdata structure\b", r"\brecursion\b", r"\binheritance\b", r"\bpolymorphism\b"
             ],
             # Mathematical Reasoning: Detects operators, specific math branches, and problem-solving verbs.
             "Mathematical Reasoning": [
-                r"solve", r"\+", r"\-", r"\*", r"/", r"calculate", r"math", r"algebra", r"statistics", r"calculus", 
-                r"probability", r"geometry", r"equation", r"mean", r"median", r"mode", r"standard deviation", 
-                r"variance", r"derivative", r"integral", r"volume", r"factor", r"quadratic", r"trig", r"sine", 
-                r"cosine", r"tangent", r"logarithm", r"matrix", r"vector", r"theorem", r"proof", r"limit", 
-                r"fraction", r"percentage", r"prime number", r"permutation", r"combination", r"regression"
+                r"\bsolve\b", r"\d\s*[\+\-\*\/]\s*\d", r"\bcalculate\b", r"\bmath\b", r"\balgebra\b", r"\bstatistics\b", r"\bcalculus\b", 
+                r"\bprobability\b", r"\bgeometry\b", r"\bequation\b", r"\bmean\b", r"\bmedian\b", r"\bmode\b", r"\bstandard deviation\b", 
+                r"\bvariance\b", r"\bderivative\b", r"\bintegral\b", r"\bvolume\b", r"\bfactor\b", r"\bquadratic\b", r"\btrig\b", r"\bsine\b", 
+                r"\bcosine\b", r"\btangent\b", r"\blogarithm\b", r"\bmatrix\b", r"\bvector\b", r"\btheorem\b", r"\bproof\b", r"\blimit\b", 
+                r"\bfraction\b", r"\bpercentage\b", r"\bprime number\b", r"\bpermutation\b", r"\bcombination\b", r"\bregression\b"
             ],
             # Factual Q&A: Looks for investigative question starters and specific domains like science/history.
             "Factual Q&A": [
-                r"what", r"who", r"when", r"where", r"how", r"fact", r"history", r"science", r"capital of", 
-                r"is the", r"does the", r"did the", r"year", r"which country", r"organ", r"atomic", r"law of", 
-                r"value of", r"language", r"how many bones", r"what causes", r"population", r"invented", 
-                r"discovered", r"meaning of", r"definition", r"biography", r"event", r"timeline", r"geography", 
-                r"physics", r"chemistry", r"biology", r"astronomy", r"current events"
+                 r"\bfact\b", r"\bhistory\b", r"\bscience\b", r"\bcapital of\b", 
+                 r"\bwhich country\b", r"\borgan\b", r"\batomic\b", r"\blaw of\b", 
+                 r"\blanguage\b", r"\bhow many bones\b", r"\bwhat causes\b", r"\bpopulation\b", r"\binvented\b", 
+                r"\bdiscovered\b", r"\bmeaning of\b", r"\bdefinition\b", r"\bbiography\b", r"\bevent\b", r"\btimeline\b", r"\bgeography\b", 
+                r"\bphysics\b", r"\bchemistry\b", r"\bbiology\b", r"\bastronomy\b", r"\bcurrent events\b"
             ],
             # Creative Writing: Triggers on formats (poem, story) and artistic keywords.
             "Creative Writing": [
-                r"write a", r"story", r"poem", r"haiku", r"script", r"dialogue", r"caption", r"tagline", 
-                r"creative", r"composition", r"short story", r"rhyming", r"verse", r"monologue", r"instagram", 
-                r"myth", r"folklore", r"fiction", r"novel", r"screenplay", r"lyrics", r"sonnet", r"metaphor", 
-                r"simile", r"narrative", r"character arc", r"prose", r"creative brief", r"blog post"
+                r"\bwrite a\b", r"\bstory\b", r"\bpoem\b", r"\bhaiku\b", r"\bscript\b", r"\bdialogue\b", r"\bcaption\b", r"\btagline\b", 
+                r"\bcreative\b", r"\bcomposition\b", r"\bshort story\b", r"\brhyming\b", r"\bverse\b", r"\bmonologue\b", r"\binstagram\b", 
+                r"\bmyth\b", r"\bfolklore\b", r"\bfiction\b", r"\bnovel\b", r"\bscreenplay\b", r"\blyrics\b", r"\bsonnet\b", r"\bmetaphor\b", 
+                r"\bsimile\b", r"\bnarrative\b", r"\bcharacter arc\b", r"\bprose\b", r"\bcreative brief\b", r"\bblog post\b"
             ],
             # Logical Analysis: Scans for critical thinking, fallacies, and decision-making frameworks.
             "Logical Analysis": [
-                r"logical", r"fallacy", r"reasoning", r"argument", r"puzzle", r"decision", r"analyze", r"valid", 
-                r"thinking", r"counterarguments", r"assumptions", r"boxes", r"friday", r"framework", r"rational", 
-                r"consequences", r"deduction", r"induction", r"syllogism", r"paradox", r"contradiction", r"premise", 
-                r"conclusion", r"bias", r"critical thinking", r"brainteaser", r"riddle", r"implication", r"evaluate"
+                r"\blogical\b", r"\bfallacy\b", r"\breasoning\b", r"\bargument\b", r"\bpuzzle\b", r"\bdecision\b", r"\banalyze\b", r"\bvalid\b", 
+                r"\bthinking\b", r"\bcounterarguments\b", r"\bassumptions\b", r"\bboxes\b", r"\bfriday\b", r"\bframework\b", r"\brational\b", 
+                r"\bconsequences\b", r"\bdeduction\b", r"\binduction\b", r"\bsyllogism\b", r"\bparadox\b", r"\bcontradiction\b", r"\bpremise\b", 
+                r"\bconclusion\b", r"\bbias\b", r"\bcritical thinking\b", r"\bbrainteaser\b", r"\briddle\b", r"\bimplication\b", r"\bevaluate\b"
             ],
             # Summarization: Picks up on brevity-related verbs (condense, summarize) and document types.
             "Summarization": [
-                r"summarize", r"tl;dr", r"condense", r"takeaways", r"executive summary", r"brief", r"key ideas", 
-                r"main takeaways", r"meeting notes", r"research paper", r"podcast transcript", r"terms and conditions", 
-                r"obligations", r"core concepts", r"recap", r"abstract", r"synopsis", r"bullet points", r"overview", 
-                r"sum up", r"abbreviate", r"distill", r"key points"
+                r"\bsummarize\b", r"\btl;dr\b", r"\bcondense\b", r"\btakeaways\b", r"\bexecutive summary\b", r"\bbrief\b", r"\bkey ideas\b", 
+                r"\bmain takeaways\b", r"\bmeeting notes\b", r"\bresearch paper\b", r"\bpodcast transcript\b", r"\bterms and conditions\b", 
+                r"\bobligations\b", r"\bcore concepts\b", r"\brecap\b", r"\babstract\b", r"\bsynopsis\b", r"\bbullet points\b", r"\boverview\b", 
+                r"\bsum up\b", r"\babbreviate\b", r"\bdistill\b", r"\bkey points\b"
             ],
             # Translation: Matches language names and specific "how do you say" phrases.
             "Translation": [
-                r"translate", r"how do you say", r"in french", r"in spanish", r"in japanese", r"in german", 
-                r"localization", r"into spanish", r"into french", r"into portuguese", r"into mandarin", 
-                r"ui labels", r"multilingual", r"translator", r"interpreting", r"language barrier", r"dialect", 
-                r"bilingual", r"transcription", r"dubbing", r"subtitles", r"in italian", r"in russian", 
-                r"in arabic", r"in hindi"
+                r"\btranslate\b", r"\bhow do you say\b", r"\bin french\b", r"\bin spanish\b", r"\bin japanese\b", r"\bin german\b", 
+                r"\blocalization\b", r"\binto spanish\b", r"\binto french\b", r"\binto portuguese\b", r"\binto mandarin\b", 
+                r"\bui labels\b", r"\bmultilingual\b", r"\btranslator\b", r"\binterpreting\b", r"\blanguage barrier\b", r"\bdialect\b", 
+                r"\bbilingual\b", r"\btranscription\b", r"\bdubbing\b", r"\bsubtitles\b", r"\bin italian\b", r"\bin russian\b", 
+                r"\bin arabic\b", r"\bin hindi\b"
             ],
             # Advisory / Opinion: Identifies advice-seeking patterns and subjective evaluation keywords (better, ROI).
             "Advisory / Opinion": [
-                r"should i", r"opinion", r"advice", r"recommend", r"is it better", r"worth learning", 
-                r"what do you think", r"consider", r"strategies", r"roi", r"should ai", r"is it ethical", 
-                r"how do i negotiate", r"suggestion", r"pros and cons", r"perspective", r"feedback", r"review", 
-                r"critique", r"guidance", r"best practice", r"should we", r"alternative", r"impact", r"feasibility"
+                r"\bshould i\b", r"\bopinion\b", r"\badvice\b", r"\brecommend\b", r"\bis it better\b", r"\bworth learning\b", 
+                r"\bwhat do you think\b", r"\bconsider\b", r"\bstrategies\b", r"\broi\b", r"\bshould ai\b", r"\bis it ethical\b", 
+                r"\bhow do i negotiate\b", r"\bsuggestion\b", r"\bpros and cons\b", r"\bperspective\b", r"\bfeedback\b", r"\breview\b", 
+                r"\bcritique\b", r"\bguidance\b", r"\bbest practice\b", r"\bshould we\b", r"\balternative\b", r"\bimpact\b", r"\bfeasibility\b"
             ],
             # Planning / Strategy: Detects scheduling terms, project roadmap language, and specific plan types.
             "Planning / Strategy": [
-                r"plan", r"roadmap", r"strategy", r"checklist", r"onboarding", r"schedule", r"calendar", 
-                r"30-day", r"go-to-market", r"itinerary", r"workout", r"pricing strategy", r"weekly schedule", 
-                r"youtube channel strategy", r"milestones", r"objectives", r"kpi", r"timeline", r"workflow", 
-                r"action items", r"logistics", r"contingency", r"budgeting", r"resource allocation", 
-                r"prioritization", r"long-term", r"short-term"
+                r"\bplan\b", r"\broadmap\b", r"\bstrategy\b", r"\bchecklist\b", r"\bonboarding\b", r"\bschedule\b", r"\bcalendar\b", 
+                r"\b30-day\b", r"\bgo-to-market\b", r"\bitinerary\b", r"\bworkout\b", r"\bpricing strategy\b", r"\bweekly schedule\b", 
+                r"\byoutube channel strategy\b", r"\bmilestones\b", r"\bobjectives\b", r"\bkpi\b", r"\btimeline\b", r"\bworkflow\b", 
+                r"\baction items\b", r"\blogistics\b", r"\bcontingency\b", r"\bbudgeting\b", r"\bresource allocation\b", 
+                r"\bprioritization\b", r"\blong-term\b", r"\bshort-term\b"
             ],
             # Data Interpretation: Triggers on file types (csv, dataset) and visual data terms (chart, plot).
             "Data Interpretation": [
-                r"data", r"chart", r"graph", r"plot", r"trends", r"dataset", r"csv", r"metrics", r"analyze this", 
-                r"scatter plot", r"income statement", r"p/e ratio", r"survey", r"a/b test", r"dataframe", 
-                r"bimodal", r"churn rate", r"visualization", r"histogram", r"outlier", r"correlation", 
-                r"distribution", r"summary statistics", r"raw data", r"data points", r"insights", r"forecast", 
-                r"pivot table", r"json", r"parquet"
+                r"\bdata\b", r"\bchart\b", r"\bgraph\b", r"\bplot\b", r"\btrends\b", r"\bdataset\b", r"\bcsv\b", r"\bmetrics\b", r"\banalyze this\b", 
+                r"\bscatter plot\b", r"\bincome statement\b", r"\bp/e ratio\b", r"\bsurvey\b", r"\ba/b test\b", r"\bdataframe\b", 
+                r"\bbimodal\b", r"\bchurn rate\b", r"\bvisualization\b", r"\bhistogram\b", r"\boutlier\b", r"\bcorrelation\b", 
+                r"\bdistribution\b", r"\bsummary statistics\b", r"\braw data\b", r"\bdata points\b", r"\binsights\b", r"\bforecast\b", 
+                r"\bpivot table\b", r"\bjson\b", r"\bparquet\b"
             ],
             # Debugging: Specific keywords for identifying code errors and broken functionality.
             "Debugging": [
-                r"debug", r"fix this", r"error", r"throwing", r"not working", r"slow", r"rewrite", r"why is", 
-                r"issue", r"bug", r"crash", r"exception", r"traceback", r"log", r"broken", r"failed", r"syntax error", 
-                r"runtime error", r"segmentation fault", r"memory leak", r"hang", r"freeze"
+                r"\bdebug\b", r"\bfix this\b", r"\berror\b", r"\bthrowing\b", r"\bnot working\b", r"\bslow\b", r"\brewrite\b", r"\bwhy is\b", 
+                r"\bissue\b", r"\bbug\b", r"\bcrash\b", r"\bexception\b", r"\btraceback\b", r"\blog\b", r"\bbroken\b", r"\bfailed\b", r"\bsyntax error\b", 
+                r"\bruntime error\b", r"\bsegmentation fault\b", r"\bmemory leak\b", r"\bhang\b", r"\bfreeze\b"
             ],
             # Optimization: Specific keywords for performance improvement requests.
             "Optimization": [
-                r"efficient", r"optimize", r"performance", r"fast", r"slower", r"improvement", r"latency", 
-                r"throughput", r"scaling", r"bottleneck", r"refactoring for speed", r"compression", r"caching", 
-                r"profiling", r"memoization", r"asynchronous", r"parallelism"
+                r"\befficient\b", r"\boptimize\b", r"\bperformance\b", r"\bfast\b", r"\bslower\b", r"\bimprovement\b", r"\blatency\b", 
+                r"\bthroughput\b", r"\bscaling\b", r"\bbottleneck\b", r"\brefactoring for speed\b", r"\bcompression\b", r"\bcaching\b", 
+                r"\bprofiling\b", r"\bmemoization\b", r"\basynchronous\b", r"\bparallelism\b"
             ]
         }
         
+        # Pre-compile the patterns for performance.
+        self.compiled_patterns = {}
+        for category, keywords in raw_patterns.items():
+            combined_regex = "|".join(f"(?:{kw})" for kw in keywords)
+            self.compiled_patterns[category] = re.compile(combined_regex, re.IGNORECASE)
+
     def classify(self, text):
-        """Processes the text to find all matching expert categories."""
-        text = text.lower()  # Convert entire text to lowercase for case-insensitive matching.
-        matched_categories = []  # List to store the 'Expert Pathways' that are triggered.
+        """Processes the text to find all matching expert categories using a scoring system."""
+        matched_categories = []
         
-        # Iterating through every category in our pattern dictionary.
-        for category, keywords in self.patterns.items():
-            # Checking every keyword/regex assigned to that category.
-            for kw in keywords:
-                # If a keyword is found anywhere in the text...
-                if re.search(kw, text):
-                    matched_categories.append(category)  # Add the category name to our matches.
-                    break  # Stop checking keywords for THIS category and move to the next category.
+        for category, pattern in self.compiled_patterns.items():
+            matches = pattern.findall(text)
+            
+            # SCORING LOGIC:
+            threshold = 1
+
+            if len(matches) >= threshold:
+                matched_categories.append(category)
         
-        # HANDLE "EDGE" CASES: If no experts were triggered at all.
+        # HANDLE "EDGE" CASES: If no experts reached the threshold.
         if not matched_categories:
             return {
-                "categories": ["Ambiguous"],  # Route to the Ambiguous/Fallback pathway.
-                "label": "edge"               # Explicitly label this as an 'edge' case.
+                "categories": ["Ambiguous"],
+                "label": "edge"
             }
         
-        # Count how many experts are needed for this specific job.
         num_matches = len(matched_categories)
         
-        # HANDLE "SINGLE" CASES: Pure, straightforward tasks.
         if num_matches == 1:
             return {
-                "categories": matched_categories,  # The one specific expert needed.
-                "label": "single"                  # Labeled as a standard single-expert task.
+                "categories": matched_categories,
+                "label": "single"
             }
-        # HANDLE "MULTI" CASES: Messy, multi-disciplinary prompts.
         else:
             return {
-                "categories": matched_categories,  # All experts that need to be activated.
-                "label": "multi"                   # Labeled as a complex multi-model task.
+                "categories": matched_categories,
+                "label": "multi"
             }
 
     def route(self, text):

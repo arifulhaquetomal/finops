@@ -26,12 +26,11 @@
         "prompt": "What is the capital of Australia?",
         "expected_cat": "Factual Q&A",
         "actual_cats": [
-            "Factual Q&A",
-            "Coding"
+            "Ambiguous"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": true
+        "actual_label": "edge",
+        "success": false
     },
     {
         "id": 4,
@@ -71,11 +70,11 @@
         "prompt": "Who invented the telephone?",
         "expected_cat": "Factual Q&A",
         "actual_cats": [
-            "Factual Q&A"
+            "Ambiguous"
         ],
         "expected_label": "single",
-        "actual_label": "single",
-        "success": true
+        "actual_label": "edge",
+        "success": false
     },
     {
         "id": 8,
@@ -203,11 +202,10 @@
         "prompt": "What is the atomic number of gold?",
         "expected_cat": "Factual Q&A",
         "actual_cats": [
-            "Factual Q&A",
-            "Coding"
+            "Factual Q&A"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -226,11 +224,10 @@
         "prompt": "Write a short story about a lighthouse keeper who discovers a message in a bottle.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Factual Q&A",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -238,11 +235,10 @@
         "prompt": "Continue this story: 'The door opened slowly. No one was there.'",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Debugging",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -250,12 +246,10 @@
         "prompt": "Write a 500-word science fiction story set on Mars in 2150.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -285,11 +279,10 @@
         "prompt": "Compose a free verse poem from the perspective of an old tree.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Advisory / Opinion",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -297,12 +290,10 @@
         "prompt": "Write a 2-minute dialogue between two strangers stuck in an elevator.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Debugging",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -310,11 +301,10 @@
         "prompt": "Write a dramatic monologue for a villain revealing their backstory.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Debugging",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -355,12 +345,11 @@
         "prompt": "Write a children's story about a brave little robot who learns to feel emotions.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Factual Q&A",
             "Creative Writing"
         ],
         "expected_label": "multi",
-        "actual_label": "multi",
-        "success": true
+        "actual_label": "single",
+        "success": false
     },
     {
         "id": 33,
@@ -378,12 +367,10 @@
         "prompt": "Write a product description for noise-cancelling headphones aimed at remote workers.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Creative Writing",
-            "Coding"
+            "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -391,11 +378,11 @@
         "prompt": "Write the opening scene of a romantic comedy set in a bookshop.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Ambiguous"
+            "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "edge",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 36,
@@ -413,11 +400,10 @@
         "prompt": "Write a mystery story opening where a detective arrives at a crime scene.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Factual Q&A",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -425,11 +411,10 @@
         "prompt": "Write a short email newsletter intro for a travel blog about Southeast Asia.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Debugging",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -437,11 +422,10 @@
         "prompt": "Write a Python function that checks if a string is a palindrome.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -449,12 +433,10 @@
         "prompt": "How do I read a CSV file in Python using pandas?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Factual Q&A",
-            "Data Interpretation",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -462,11 +444,10 @@
         "prompt": "Write a Python script that sends an HTTP GET request and prints the response.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -485,11 +466,10 @@
         "prompt": "Write a JavaScript function that debounces user input.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -497,14 +477,10 @@
         "prompt": "How do I fetch data from an API in JavaScript using async/await?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Factual Q&A",
-            "Coding",
-            "Data Interpretation",
-            "Mathematical Reasoning",
-            "Creative Writing"
+            "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -512,11 +488,10 @@
         "prompt": "Write a React component that displays a list of users fetched from an API.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -524,11 +499,10 @@
         "prompt": "Why is my Python code throwing a 'NoneType has no attribute' error?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Debugging",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -536,11 +510,10 @@
         "prompt": "Fix this SQL query that's returning duplicate rows: SELECT name FROM users JOIN orders ON users.id = orders.user_id",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Debugging",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -548,12 +521,10 @@
         "prompt": "My JavaScript Promise is never resolving. Here's the code: [code block]. What's wrong?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -561,12 +532,10 @@
         "prompt": "What is the best way to structure a REST API in Node.js for a large-scale project?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -574,11 +543,10 @@
         "prompt": "Should I use microservices or a monolith for a startup app with 3 developers?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Advisory / Opinion",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -586,12 +554,10 @@
         "prompt": "How can I make this Python loop run faster? It's currently O(n\u00b2).",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Optimization",
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -599,12 +565,10 @@
         "prompt": "What are best practices for optimizing SQL queries on large tables?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -612,13 +576,11 @@
         "prompt": "Write a Python script to scrape product prices from a website and save them to a CSV.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Data Interpretation",
             "Coding"
         ],
         "expected_label": "multi",
-        "actual_label": "multi",
-        "success": true
+        "actual_label": "single",
+        "success": false
     },
     {
         "id": 54,
@@ -636,24 +598,21 @@
         "prompt": "What design pattern should I use to handle multiple payment providers in my app?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A"
+            "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 56,
         "prompt": "How do closures work in JavaScript? Give me a practical example.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -661,7 +620,6 @@
         "prompt": "Explain why this Python function is slow and rewrite it more efficiently: [code block].",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Optimization",
             "Debugging",
             "Coding"
         ],
@@ -674,12 +632,10 @@
         "prompt": "How do I use decorators in Python? Show me a real-world example.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -709,11 +665,10 @@
         "prompt": "What is the mean, median, and mode of: 4, 7, 2, 7, 9, 1, 7?",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -732,11 +687,10 @@
         "prompt": "What is the derivative of f(x) = x\u00b3 - 4x + 2?",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -755,33 +709,32 @@
         "prompt": "A train leaves city A at 60 mph. Another leaves city B at 80 mph toward city A. The cities are 420 miles apart. When do they meet?",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 66,
         "prompt": "If a shirt costs $40 after a 20% discount, what was the original price?",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 67,
         "prompt": "What is the probability of rolling two sixes in a row with a fair die?",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -789,11 +742,10 @@
         "prompt": "In a class of 30 students, 12 like math and 15 like English, 5 like both. How many like neither?",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -812,11 +764,10 @@
         "prompt": "What is the volume of a cylinder with radius 5 and height 10?",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -824,11 +775,10 @@
         "prompt": "Factor the quadratic: x\u00b2 + 5x + 6",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -836,11 +786,10 @@
         "prompt": "Maria earns $1,500/month. She saves 20%. How much will she have saved after 3 years?",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -859,13 +808,10 @@
         "prompt": "Identify the logical fallacy: 'You can't trust his opinion on climate change because he drives a truck.'",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Logical Analysis",
-            "Debugging",
-            "Coding"
+            "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -873,11 +819,10 @@
         "prompt": "What is wrong with this reasoning: 'This medicine worked for me, so it will work for everyone.'",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Factual Q&A",
             "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -885,11 +830,10 @@
         "prompt": "What are the strongest counterarguments to universal basic income?",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Factual Q&A",
             "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -897,13 +841,10 @@
         "prompt": "What assumptions is this business plan making that could be wrong?",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
-            "Logical Analysis",
-            "Planning / Strategy"
+            "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -911,11 +852,10 @@
         "prompt": "There are 3 boxes: one has gold, one has silver, one is empty. Each has a clue. Only one clue is true. Which box has the gold?",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Logical Analysis",
-            "Coding"
+            "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -923,11 +863,10 @@
         "prompt": "A man walks into a town on Friday, stays 3 days, and leaves on Friday. How?",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Factual Q&A",
             "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -935,23 +874,21 @@
         "prompt": "Help me think through whether I should leave my stable job to start a business.",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Mathematical Reasoning"
+            "Logical Analysis"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 81,
         "prompt": "What framework should I use to evaluate two competing job offers?",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A",
             "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -959,11 +896,10 @@
         "prompt": "Analyze this claim: 'Correlation between ice cream sales and crime rates proves ice cream causes crime.'",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Logical Analysis",
-            "Data Interpretation"
+            "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -982,9 +918,8 @@
         "prompt": "Give me a TL;DR of this blog post about machine learning: [text]",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Summarization",
-            "Debugging",
-            "Creative Writing"
+            "Factual Q&A",
+            "Summarization"
         ],
         "expected_label": "single",
         "actual_label": "multi",
@@ -995,13 +930,10 @@
         "prompt": "Summarize the key ideas in 'Thinking, Fast and Slow' by Daniel Kahneman.",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Optimization",
-            "Summarization",
-            "Logical Analysis",
-            "Debugging"
+            "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1009,11 +941,10 @@
         "prompt": "What are the main takeaways from 'The Lean Startup'?",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Summarization",
-            "Factual Q&A"
+            "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1021,12 +952,10 @@
         "prompt": "Here are my meeting notes. Write a professional summary with action items: [notes]",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Summarization",
-            "Planning / Strategy",
-            "Creative Writing"
+            "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1034,11 +963,10 @@
         "prompt": "Condense these 5 pages of research notes into a 1-page overview: [text]",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1046,11 +974,10 @@
         "prompt": "Summarize this 10-page financial report into an executive summary: [report]",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1058,11 +985,10 @@
         "prompt": "What is this research paper about and what did the study find? [abstract]",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Summarization",
-            "Factual Q&A"
+            "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1070,12 +996,10 @@
         "prompt": "I'll paste a podcast transcript. Give me the 5 most important points discussed: [transcript]",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Creative Writing",
-            "Summarization",
-            "Coding"
+            "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1094,11 +1018,10 @@
         "prompt": "What are the key obligations in this contract I need to be aware of? [contract]",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Summarization",
-            "Factual Q&A"
+            "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1106,12 +1029,10 @@
         "prompt": "Translate this paragraph into French: 'Technology is changing the world at an unprecedented pace.'",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Debugging",
-            "Data Interpretation",
             "Translation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1119,11 +1040,10 @@
         "prompt": "How do you say 'Where is the nearest hospital?' in Japanese?",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Factual Q&A",
             "Translation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1131,11 +1051,10 @@
         "prompt": "Translate this business email into Spanish keeping the formal tone.",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Translation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1154,34 +1073,32 @@
         "prompt": "What does this German sentence mean in English: 'Ich verstehe das nicht ganz.'",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Translation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 99,
         "prompt": "Adapt this marketing copy for an Arabic-speaking audience \u2014 culturally, not just word for word.",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Mathematical Reasoning"
+            "Translation"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 100,
         "prompt": "Translate these software error messages from English to Portuguese for our Brazilian users.",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Debugging",
             "Translation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1189,12 +1106,10 @@
         "prompt": "How would you translate 'user-friendly' naturally into Mandarin for a tech product?",
         "expected_cat": "Translation",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
             "Translation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1213,12 +1128,10 @@
         "prompt": "I've been offered a promotion but it means relocating. What should I consider?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Advisory / Opinion",
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1237,13 +1150,10 @@
         "prompt": "What's your opinion on cryptocurrency as a long-term investment strategy?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Advisory / Opinion",
-            "Factual Q&A",
-            "Planning / Strategy"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1251,11 +1161,10 @@
         "prompt": "I'm feeling burned out. What are some practical strategies to recover?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1263,12 +1172,10 @@
         "prompt": "Should I try intermittent fasting? What are the pros and cons?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A",
-            "Optimization"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1276,11 +1183,10 @@
         "prompt": "What do you think is the most promising AI application in healthcare?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1288,7 +1194,6 @@
         "prompt": "Is Rust worth learning if I already know C++ and Python?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Advisory / Opinion",
             "Coding"
         ],
@@ -1301,11 +1206,10 @@
         "prompt": "My coworker keeps taking credit for my ideas in meetings. What should I do?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1313,22 +1217,21 @@
         "prompt": "How do I set better boundaries with my manager without damaging the relationship?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 112,
         "prompt": "What habits have the highest ROI for personal productivity?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1336,22 +1239,21 @@
         "prompt": "I'm 35 and thinking of switching to a tech career. Is it too late?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Logical Analysis"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 114,
         "prompt": "Help me create a 30-day study plan for the AWS Solutions Architect exam.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1370,12 +1272,10 @@
         "prompt": "Help me design a go-to-market strategy for a B2B SaaS product targeting HR teams.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Planning / Strategy",
-            "Coding"
+            "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1383,23 +1283,21 @@
         "prompt": "What's the best way to grow an audience for a new developer blog from zero?",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Factual Q&A",
-            "Debugging"
+            "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 118,
         "prompt": "Help me plan a 10-day trip to Japan in April for two people on a $4,000 budget.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1418,12 +1316,10 @@
         "prompt": "What's a good pricing strategy for a new SaaS product entering a competitive market?",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Factual Q&A",
-            "Planning / Strategy",
-            "Coding"
+            "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1442,11 +1338,10 @@
         "prompt": "Help me plan a 30-day content calendar for a LinkedIn company page in the fintech space.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1454,22 +1349,21 @@
         "prompt": "My startup is running out of runway in 4 months. What are my strategic options?",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Factual Q&A"
+            "Planning / Strategy"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 124,
         "prompt": "Design a weekly schedule that balances a full-time job, studying for a certification, and exercise.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1477,11 +1371,10 @@
         "prompt": "Here's a bar chart of monthly sales for 2024. What trends do you see?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
             "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1489,11 +1382,10 @@
         "prompt": "Explain what this scatter plot is telling us about the relationship between hours studied and exam scores.",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
             "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1501,12 +1393,10 @@
         "prompt": "I have a dataset of customer purchases. What SQL query would show me top 10 customers by revenue?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
-            "Data Interpretation",
-            "Coding"
+            "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1514,12 +1404,10 @@
         "prompt": "Analyze this CSV of web traffic data and tell me what's driving the spike on March 14th: [data]",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
-            "Logical Analysis",
             "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1527,11 +1415,10 @@
         "prompt": "What does this income statement tell us about the company's profitability over 3 years?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
             "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1539,12 +1426,10 @@
         "prompt": "Explain what a P/E ratio of 35 means for this stock in context of its industry.",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
             "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1552,12 +1437,10 @@
         "prompt": "I surveyed 200 users. 68% prefer dark mode. How significant is this finding?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
             "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1565,13 +1448,10 @@
         "prompt": "What conclusions can I draw from these A/B test results? Control: 4.2% conversion, Variant: 5.1%, n=1000 each.",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
-            "Logical Analysis",
             "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1579,8 +1459,6 @@
         "prompt": "Here's a Python dataframe with missing values. How should I handle them before analysis?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A",
             "Data Interpretation",
             "Coding"
         ],
@@ -1593,11 +1471,10 @@
         "prompt": "What does a bimodal distribution in this user age data suggest about our target audience?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
             "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1606,7 +1483,6 @@
         "expected_cat": "Coding + Mathematical Reasoning",
         "actual_cats": [
             "Mathematical Reasoning",
-            "Creative Writing",
             "Coding"
         ],
         "expected_label": "multi",
@@ -1618,7 +1494,6 @@
         "prompt": "Explain why this Python function is slow and rewrite it more efficiently: [code block].",
         "expected_cat": "Coding + Debugging",
         "actual_cats": [
-            "Optimization",
             "Debugging",
             "Coding"
         ],
@@ -1631,9 +1506,8 @@
         "prompt": "What is machine learning and give me a brief history of how it developed.",
         "expected_cat": "Factual Q&A + Summarization",
         "actual_cats": [
-            "Summarization",
             "Factual Q&A",
-            "Creative Writing"
+            "Summarization"
         ],
         "expected_label": "multi",
         "actual_label": "multi",
@@ -1644,42 +1518,42 @@
         "prompt": "I want to become a data scientist in 12 months. What should I learn and in what order?",
         "expected_cat": "Advisory + Planning",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A",
-            "Data Interpretation"
+            "Advisory",
+            "Planning"
         ],
         "expected_label": "multi",
         "actual_label": "multi",
-        "success": false
+        "success": true
     },
     {
         "id": 139,
         "prompt": "Write a compelling LinkedIn summary for a software engineer transitioning into product management.",
         "expected_cat": "Creative Writing + Advisory",
         "actual_cats": [
+            "Advisory",
             "Creative Writing"
         ],
         "expected_label": "multi",
-        "actual_label": "single",
-        "success": false
+        "actual_label": "multi",
+        "success": true
     },
     {
         "id": 140,
         "prompt": "Is it rational to be optimistic about AI? Argue both sides then tell me your view.",
         "expected_cat": "Logical Analysis + Advisory",
         "actual_cats": [
+            "Advisory",
             "Logical Analysis"
         ],
         "expected_label": "multi",
-        "actual_label": "single",
-        "success": false
+        "actual_label": "multi",
+        "success": true
     },
     {
         "id": 141,
         "prompt": "Here's a dataset of sales figures. Write Python code to visualize trends and explain what the chart shows.",
         "expected_cat": "Data Interpretation + Coding",
         "actual_cats": [
-            "Factual Q&A",
             "Data Interpretation",
             "Coding"
         ],
@@ -1692,18 +1566,19 @@
         "prompt": "What happened during the 2008 financial crisis and what were the main causes?",
         "expected_cat": "Summarization + Factual Q&A",
         "actual_cats": [
-            "Factual Q&A"
+            "Factual Q&A",
+            "Summarization"
         ],
         "expected_label": "multi",
-        "actual_label": "single",
-        "success": false
+        "actual_label": "multi",
+        "success": true
     },
     {
         "id": 143,
         "prompt": "Help me architect and then begin building a REST API for a task management app in FastAPI.",
         "expected_cat": "Planning + Coding",
         "actual_cats": [
-            "Optimization",
+            "Planning",
             "Coding"
         ],
         "expected_label": "multi",
@@ -1715,8 +1590,8 @@
         "prompt": "Write a product launch announcement and translate it into French and Spanish.",
         "expected_cat": "Translation + Creative Writing",
         "actual_cats": [
-            "Translation",
-            "Creative Writing"
+            "Creative Writing",
+            "Translation"
         ],
         "expected_label": "multi",
         "actual_label": "multi",
@@ -1728,7 +1603,6 @@
         "expected_cat": "Mathematical Reasoning + Data Interpretation",
         "actual_cats": [
             "Mathematical Reasoning",
-            "Advisory / Opinion",
             "Data Interpretation"
         ],
         "expected_label": "multi",
@@ -1740,10 +1614,8 @@
         "prompt": "My team wants to rewrite our backend in a new language. Analyze the risks and tell me if we should do it.",
         "expected_cat": "Advisory + Logical Analysis",
         "actual_cats": [
-            "Factual Q&A",
-            "Logical Analysis",
-            "Debugging",
-            "Coding"
+            "Advisory",
+            "Logical Analysis"
         ],
         "expected_label": "multi",
         "actual_label": "multi",
@@ -1754,18 +1626,19 @@
         "prompt": "Is nuclear energy actually safer than coal? Walk me through the data.",
         "expected_cat": "Factual Q&A + Logical Analysis",
         "actual_cats": [
-            "Data Interpretation"
+            "Factual Q&A",
+            "Logical Analysis"
         ],
         "expected_label": "multi",
-        "actual_label": "single",
-        "success": false
+        "actual_label": "multi",
+        "success": true
     },
     {
         "id": 148,
         "prompt": "Design and implement a basic Mixture-of-Experts router in Python.",
         "expected_cat": "Coding + Architecture",
         "actual_cats": [
-            "Mathematical Reasoning",
+            "Architecture",
             "Coding"
         ],
         "expected_label": "multi",
@@ -1777,20 +1650,20 @@
         "prompt": "Help me outline and write the first chapter of a business book about remote team management.",
         "expected_cat": "Creative Writing + Planning",
         "actual_cats": [
-            "Mathematical Reasoning"
+            "Planning",
+            "Creative Writing"
         ],
         "expected_label": "multi",
-        "actual_label": "single",
-        "success": false
+        "actual_label": "multi",
+        "success": true
     },
     {
         "id": 150,
         "prompt": "Summarize this research paper on sleep and tell me what I should change about my sleep habits based on it.",
         "expected_cat": "Summarization + Advisory",
         "actual_cats": [
-            "Summarization",
-            "Factual Q&A",
-            "Debugging"
+            "Advisory",
+            "Summarization"
         ],
         "expected_label": "multi",
         "actual_label": "multi",
@@ -1801,34 +1674,34 @@
         "prompt": "Help.",
         "expected_cat": "Ambiguous",
         "actual_cats": [
+            "Planning / Strategy",
             "Ambiguous"
-        ],
-        "expected_label": "edge",
-        "actual_label": "edge",
-        "success": true
-    },
-    {
-        "id": 152,
-        "prompt": "What should I do?",
-        "expected_cat": "Ambiguous",
-        "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A"
         ],
         "expected_label": "edge",
         "actual_label": "multi",
         "success": false
     },
     {
-        "id": 153,
-        "prompt": "Is it true that humans only use 10% of their brain?",
-        "expected_cat": "Factual Q&A",
+        "id": 152,
+        "prompt": "What should I do?",
+        "expected_cat": "Ambiguous",
         "actual_cats": [
             "Ambiguous"
         ],
         "expected_label": "edge",
         "actual_label": "edge",
         "success": true
+    },
+    {
+        "id": 153,
+        "prompt": "Is it true that humans only use 10% of their brain?",
+        "expected_cat": "Factual Q&A",
+        "actual_cats": [
+            "Factual Q&A"
+        ],
+        "expected_label": "edge",
+        "actual_label": "single",
+        "success": false
     },
     {
         "id": 154,
@@ -1838,19 +1711,18 @@
             "Ambiguous"
         ],
         "expected_label": "edge",
-        "actual_label": "edge",
-        "success": true
+        "actual_label": "single",
+        "success": false
     },
     {
         "id": 155,
         "prompt": "What is the meaning of life?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "edge",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": false
     },
     {
@@ -1858,7 +1730,7 @@
         "prompt": "If a tree falls in a forest and no one is there, does it make a sound?",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Factual Q&A"
+            "Logical Analysis"
         ],
         "expected_label": "edge",
         "actual_label": "single",
@@ -1891,10 +1763,11 @@
         "prompt": "Write me a realistic historical fiction scene set during the moon landing.",
         "expected_cat": "Creative Writing + Factual Q&A",
         "actual_cats": [
+            "Factual Q&A",
             "Creative Writing"
         ],
         "expected_label": "edge",
-        "actual_label": "single",
+        "actual_label": "multi",
         "success": false
     },
     {
@@ -1902,10 +1775,11 @@
         "prompt": "I'm lost in my career. Where do I even start?",
         "expected_cat": "Planning + Advisory",
         "actual_cats": [
-            "Factual Q&A"
+            "Advisory",
+            "Planning"
         ],
         "expected_label": "edge",
-        "actual_label": "single",
+        "actual_label": "multi",
         "success": false
     },
     {
@@ -1913,12 +1787,10 @@
         "prompt": "Write a SQL query to find all customers who made more than 3 purchases in the last 30 days.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1926,11 +1798,10 @@
         "prompt": "What is the difference between INNER JOIN and LEFT JOIN in SQL?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1938,11 +1809,10 @@
         "prompt": "Write a bash script that backs up a directory and timestamps the archive.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1950,12 +1820,10 @@
         "prompt": "How do I handle errors idiomatically in Go?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Factual Q&A",
-            "Debugging",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1963,12 +1831,10 @@
         "prompt": "Write a Go HTTP server that responds with the current time in JSON.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Data Interpretation",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1976,12 +1842,10 @@
         "prompt": "Write a Dockerfile for a Python FastAPI application.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
-            "Optimization",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -1989,12 +1853,10 @@
         "prompt": "How do I set up a basic CI/CD pipeline with GitHub Actions for a Node.js app?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2002,11 +1864,10 @@
         "prompt": "How do I safely store passwords in a Python web application?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2014,23 +1875,21 @@
         "prompt": "Explain the difference between event-driven architecture and request/response architecture.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 170,
         "prompt": "What is the GIL in Python and how does it affect multithreading?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2071,11 +1930,10 @@
         "prompt": "What is GDP and how is it calculated?",
         "expected_cat": "Factual Q&A",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Factual Q&A"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2149,11 +2007,10 @@
         "prompt": "I want to learn Arabic from scratch. Create a structured 6-month learning plan.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2161,12 +2018,10 @@
         "prompt": "Help me plan a corporate team-building event for 50 people in a single day.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A",
             "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2174,24 +2029,21 @@
         "prompt": "How should I prioritize features for my MVP when I have limited engineering resources?",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Advisory / Opinion",
-            "Factual Q&A"
+            "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 184,
         "prompt": "Help me create a simple monthly budget plan on a $3,500/month take-home salary.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2199,11 +2051,10 @@
         "prompt": "Create a structured 90-day plan for someone transitioning from software engineering to machine learning.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Planning / Strategy"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2222,11 +2073,10 @@
         "prompt": "Should AI-generated art be eligible for copyright protection?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2234,35 +2084,33 @@
         "prompt": "What are the biggest risks of large language models being deployed at scale?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 189,
         "prompt": "Is a computer science degree still worth it in the age of AI and bootcamps?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 190,
         "prompt": "Should a bootstrapped startup take VC funding? What are the real trade-offs?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 191,
@@ -2291,23 +2139,21 @@
         "prompt": "Write 5 tweet ideas for a developer advocate promoting a new open-source tool.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Mathematical Reasoning"
+            "Creative Writing"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 194,
         "prompt": "Write an introduction for a blog post titled: 'Why Every Developer Should Learn SQL.'",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Creative Writing",
-            "Debugging",
-            "Coding"
+            "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2315,11 +2161,10 @@
         "prompt": "Write a compelling opening paragraph for an article about the future of remote work.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Data Interpretation",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2327,11 +2172,10 @@
         "prompt": "Our churn rate went from 3% to 7% in Q3. What are the most likely causes and how do I investigate?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A",
             "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2339,23 +2183,21 @@
         "prompt": "What does a customer acquisition cost of $85 mean if our average revenue per user is $240/year?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Data Interpretation"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 198,
         "prompt": "Map out the second and third-order consequences of remote work becoming the default globally.",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2363,11 +2205,10 @@
         "prompt": "What are the unintended consequences of making all education free globally?",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Factual Q&A",
             "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2375,11 +2216,10 @@
         "prompt": "If I invest $500/month at 7% annual return for 30 years, how much will I have? Show the math.",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2387,11 +2227,10 @@
         "prompt": "Explain Python's asyncio library and when you'd use it over threading.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2399,12 +2238,10 @@
         "prompt": "What is the difference between REST, GraphQL, and gRPC APIs?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Factual Q&A",
-            "Data Interpretation",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2412,12 +2249,10 @@
         "prompt": "What are the 5 core concepts from 'Clean Code' by Robert Martin?",
         "expected_cat": "Summarization",
         "actual_cats": [
-            "Summarization",
-            "Factual Q&A",
-            "Coding"
+            "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2425,10 +2260,11 @@
         "prompt": "What is the transformer architecture in machine learning?",
         "expected_cat": "Factual Q&A",
         "actual_cats": [
-            "Factual Q&A"
+            "Factual Q&A",
+            "Summarization"
         ],
         "expected_label": "single",
-        "actual_label": "single",
+        "actual_label": "multi",
         "success": true
     },
     {
@@ -2447,22 +2283,21 @@
         "prompt": "Build me a competitive analysis framework for entering the project management software market.",
         "expected_cat": "Planning / Strategy",
         "actual_cats": [
-            "Logical Analysis"
+            "Planning / Strategy"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 207,
         "prompt": "Should I use PostgreSQL or MongoDB for a social media application with complex user relationships?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Coding"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2470,11 +2305,10 @@
         "prompt": "Write a dystopian short story where AI has replaced all creative jobs.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Factual Q&A",
             "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2482,12 +2316,10 @@
         "prompt": "Evaluate this product strategy: 'We should build every feature users request to maximize satisfaction.'",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Factual Q&A",
-            "Logical Analysis",
-            "Planning / Strategy"
+            "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2495,35 +2327,32 @@
         "prompt": "What sample size do I need to detect a 5% conversion rate improvement with 95% confidence?",
         "expected_cat": "Mathematical Reasoning",
         "actual_cats": [
-            "Optimization",
-            "Factual Q&A"
+            "Mathematical Reasoning"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
-        "success": false
+        "actual_label": "single",
+        "success": true
     },
     {
         "id": 211,
         "prompt": "Our NPS score dropped from 42 to 28 after a product update. How do I diagnose the cause?",
         "expected_cat": "Data Interpretation",
         "actual_cats": [
-            "Factual Q&A"
+            "Data Interpretation"
         ],
         "expected_label": "single",
         "actual_label": "single",
-        "success": false
+        "success": true
     },
     {
         "id": 212,
         "prompt": "What are Python generators and when should I use them instead of lists?",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2542,13 +2371,10 @@
         "prompt": "How do I negotiate a salary increase when I haven't had a performance review in 2 years?",
         "expected_cat": "Advisory / Opinion",
         "actual_cats": [
-            "Advisory / Opinion",
-            "Factual Q&A",
-            "Optimization",
-            "Coding"
+            "Advisory / Opinion"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2567,12 +2393,10 @@
         "prompt": "Write a 60-second explainer script for a product demo video about an AI scheduling tool.",
         "expected_cat": "Creative Writing",
         "actual_cats": [
-            "Mathematical Reasoning",
-            "Creative Writing",
-            "Coding"
+            "Creative Writing"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2591,11 +2415,10 @@
         "prompt": "Write a Python context manager that measures and prints the execution time of a code block.",
         "expected_cat": "Coding",
         "actual_cats": [
-            "Creative Writing",
             "Coding"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
@@ -2603,11 +2426,10 @@
         "prompt": "Help me build a decision matrix to evaluate three cloud providers: AWS, Azure, and GCP.",
         "expected_cat": "Logical Analysis",
         "actual_cats": [
-            "Mathematical Reasoning",
             "Logical Analysis"
         ],
         "expected_label": "single",
-        "actual_label": "multi",
+        "actual_label": "single",
         "success": true
     },
     {
