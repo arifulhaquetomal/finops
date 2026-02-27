@@ -1,0 +1,2 @@
+# Pure Regex Router
+# No external dependencies required for core logic.

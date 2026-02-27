@@ -1,7 +1,7 @@
 import json      # Standard library for parsing JSON data files.
 import sys       # System library to handle potential exit codes or arguments.
 import argparse  # Module for creating a professional command-line interface.
-from router import SmartFilter  # Importing our classifier from the other file.
+from router import SmartFilter  # Importing our classifier
 
 def validate(filename):
     """
@@ -26,7 +26,9 @@ def validate(filename):
         print(f"File {filename} is empty. No prompts to test.")
         return
         
-    smart_filter = SmartFilter()  # Create an instance of our rule-based neuron.
+    print(f"--- INITIALIZING REGEX ROUTER ---")
+    smart_filter = SmartFilter()
+
     success_count = 0             # Counter for 'correct guesses' against ground truth.
     total = len(dataset)          # Total number of items we need to process.
     
@@ -87,7 +89,8 @@ def validate(filename):
     print(f"Benchmark Score: {accuracy:.2f}% ({success_count}/{total} correct guesses)")
     
     # Save results to disk.
-    output_name = f"results_{filename}"
+    sanitized_filename = filename.replace("/", "_").replace("\\", "_")
+    output_name = f"results_{sanitized_filename}"
     with open(output_name, "w") as f:
         json.dump(results, f, indent=4)
     print(f"Detailed performance logs saved to {output_name}")
