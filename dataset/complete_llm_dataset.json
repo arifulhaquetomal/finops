@@ -1541,35 +1541,35 @@
     },
     {
         "id": 221,
-        "prompt": "To train machine learning (ML) models on virtual machines (VMs), you can follow these general steps:\nSet up a virtual machine: Choose a cloud provider or a virtualization software to create a virtual machine. Some popular cloud providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Install the operating system and necessary software on the VM.\nInstall dependencies: Install the required dependencies for ML training on the virtual machine. This typically includes libraries like TensorFlow, PyTorch, scikit-learn, or any other libraries specific to your ML framework or tools.",
+        "prompt": "To train machine learning (ML) models on virtual machines (VMs), you can follow these general steps: Set up a virtual machine: Choose a cloud provider or a virtualization software to create a virtual machine. Some popular cloud providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Install the operating system and necessary software on the VM. Install dependencies: Install the required dependencies for ML training on the virtual machine. This typically includes libraries like TensorFlow, PyTorch, scikit-learn, or any other libraries specific to your ML framework or tools.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 222,
-        "prompt": "Write a Google Ads headline for [product or service] that highlights the benefits of [product or service].\nCreate a Google Ads headline for [product or service] that targets [target audience].",
+        "prompt": "Write a Google Ads headline for [product or service] that highlights the benefits of [product or service]. Create a Google Ads headline for [product or service] that targets [target audience].",
         "category": "Planning / Strategy",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 223,
-        "prompt": "Headline: Create a compelling headline that summarizes the key benefits of your product or service. Use action-oriented language and highlight the pain points that your product or service solves.\nDescription: Write a clear and concise description that provides more information about your product or service. Be sure to include a call to action, such as \"Learn more\" or \"Buy now.\"",
+        "prompt": "Headline: Create a compelling headline that summarizes the key benefits of your product or service. Use action-oriented language and highlight the pain points that your product or service solves. Description: Write a clear and concise description that provides more information about your product or service. Be sure to include a call to action, such as \"Learn more\" or \"Buy now.\"",
         "category": "Planning / Strategy",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 224,
-        "prompt": "Write a Google Ads description for [product or service] that explains the features and benefits of [product or service].Create a Facebook Ads description for [product or service] that tells a story about [product or service].\nGenerate a persuasive ad description for [product or service] that will convince people to buy.",
+        "prompt": "Write a Google Ads description for [product or service] that explains the features and benefits of [product or service].Create a Facebook Ads description for [product or service] that tells a story about [product or service]. Generate a persuasive ad description for [product or service] that will convince people to buy.",
         "category": "Creative Writing",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 225,
-        "prompt": "Write a Google Ads call to action that tells people what to do next.\nCreate a Facebook Ads call to action that encourages people to click the \"Learn More\" button.",
+        "prompt": "Write a Google Ads call to action that tells people what to do next. Create a Facebook Ads call to action that encourages people to click the \"Learn More\" button.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -1674,70 +1674,70 @@
     },
     {
         "id": 240,
-        "prompt": "i want you to see a good literature. Write a blog post about how to achieve your goals.\nCreate a video about how to overcome your fears.\nGenerate a poem about the power of self-improvement",
+        "prompt": "i want you to see a good literature. Write a blog post about how to achieve your goals. Create a video about how to overcome your fears. Generate a poem about the power of self-improvement",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 241,
-        "prompt": "Write a blog post about how to achieve your goals.\nCreate a video about how to overcome your fears.\nGenerate a poem about the power of self-improvement.",
+        "prompt": "Write a blog post about how to achieve your goals. Create a video about how to overcome your fears. Generate a poem about the power of self-improvement.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 242,
-        "prompt": "Write a blog post about the latest scientific discovery.\nCreate a video explaining a complex scientific concept in a way that everyone can understand.\nGenerate a poem about the beauty of the natural world.",
+        "prompt": "Write a blog post about the latest scientific discovery. Create a video explaining a complex scientific concept in a way that everyone can understand. Generate a poem about the beauty of the natural world.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 243,
-        "prompt": "Write a review of a recent art exhibition.\nCreate a video about the history of a famous work of art.\nGenerate a poem about the beauty of art.",
+        "prompt": "Write a review of a recent art exhibition. Create a video about the history of a famous work of art. Generate a poem about the beauty of art.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 244,
-        "prompt": "Write a blog post about the future of artificial intelligence.\nCreate a video essay about the ethics of social media.\nGenerate a podcast episode about the latest technological trends.",
+        "prompt": "Write a blog post about the future of artificial intelligence. Create a video essay about the ethics of social media. Generate a podcast episode about the latest technological trends.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 245,
-        "prompt": "Write a historical fiction novel about the American Revolution.\nCreate a documentary about the rise and fall of the Roman Empire.\nGenerate a podcast episode about the history of video games.",
+        "prompt": "Write a historical fiction novel about the American Revolution. Create a documentary about the rise and fall of the Roman Empire. Generate a podcast episode about the history of video games.",
         "category": "Creative Writing",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 246,
-        "prompt": "Focus on the benefits of cloud computing.\nUse clear and concise language.\nBe creative and engaging.\nKeep your prompts relevant to your target audience.",
+        "prompt": "Focus on the benefits of cloud computing. Use clear and concise language. Be creative and engaging. Keep your prompts relevant to your target audience.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 247,
-        "prompt": "Use clear and concise language.\nBe specific about the topic of your prompt.\nInclude keywords that people are likely to search for.\nMake your prompt interesting and engaging.\nKeep your prompt to the point.",
+        "prompt": "Use clear and concise language. Be specific about the topic of your prompt. Include keywords that people are likely to search for. Make your prompt interesting and engaging. Keep your prompt to the point.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 248,
-        "prompt": "Focus on the specific task that you want to accomplish.\nUse clear and concise language.\nKeep your prompts interesting and engaging.\nUse humor or other creative elements to make your prompts stand out.",
+        "prompt": "Focus on the specific task that you want to accomplish. Use clear and concise language. Keep your prompts interesting and engaging. Use humor or other creative elements to make your prompts stand out.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 249,
-        "prompt": "s the statement true, false, or can't be determined? 'The cat is sleeping on the couch.'\"\n\"Given the premise 'The sun is shining brightly,' choose the most appropriate inference: 'It is a sunny day outside.'\"",
+        "prompt": "s the statement true, false, or can't be determined? 'The cat is sleeping on the couch.'\" \"Given the premise 'The sun is shining brightly,' choose the most appropriate inference: 'It is a sunny day outside.'\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -1807,14 +1807,14 @@
     },
     {
         "id": 259,
-        "prompt": "\"beautiful, young woman, cybernetic, cyberpunk, detailed gorgeous face, flowing hair, vaporwave aesthetic, synthwave , digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha\"",
+        "prompt": "beautiful, young woman, cybernetic, cyberpunk, detailed gorgeous face, flowing hair, vaporwave aesthetic, synthwave , digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 260,
-        "prompt": "\"I want you to act as a mathematical history teacher and provide information about the historical development of mathematical concepts and the contributions of different mathematicians. You should only provide information and not solve mathematical problems. Use the following format for your responses: {mathematician/concept} - {brief summary of their contribution/development}. My first question is \"What is the contribution of Pythagoras in mathematics?\"",
+        "prompt": "I want you to act as a mathematical history teacher and provide information about the historical development of mathematical concepts and the contributions of different mathematicians. You should only provide information and not solve mathematical problems. Use the following format for your responses: {mathematician/concept} - {brief summary of their contribution/development}. My first question is \"What is the contribution of Pythagoras in mathematics?\"",
         "category": "Creative Writing",
         "subcategory": "General",
         "label": "single"
@@ -1898,35 +1898,35 @@
     },
     {
         "id": 272,
-        "prompt": "\"Reflect on the meaning of a life well-lived and the legacy you hope to leave behind.\"\n\"Consider the importance of embracing the present moment and cherishing the time we have.\"\n\"Explore the concept of mortality and how it shapes our perspectives and priorities in life.\"",
+        "prompt": "\"Reflect on the meaning of a life well-lived and the legacy you hope to leave behind.\" \"Consider the importance of embracing the present moment and cherishing the time we have.\" \"Explore the concept of mortality and how it shapes our perspectives and priorities in life.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 273,
-        "prompt": "\"Explore the kaleidoscope of emotions and the palette of colors they bring.\"\n\"Imagine a world where every step is a brushstroke of vibrant shades.\"\n\"In a single stroke of color, depict the essence of a life well-lived.\"\n\"Tell a tale of how a splash of color can transform the mundane into the extraordinary.\"",
+        "prompt": "\"Explore the kaleidoscope of emotions and the palette of colors they bring.\" \"Imagine a world where every step is a brushstroke of vibrant shades.\" \"In a single stroke of color, depict the essence of a life well-lived.\" \"Tell a tale of how a splash of color can transform the mundane into the extraordinary.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 274,
-        "prompt": "Imagine a world where each color of light has a unique magical property. Describe one color and its extraordinary ability.\"\n\"Write a poem inspired by the vibrant spectrum of colors that paints the sky during a radiant sunset.\"\n\"Discuss the significance of the primary colors in the world of art and how they blend to create a multitude of shades and hues.\"\n\"Imagine a futuristic city illuminated by a symphony of neon lights. Describe the captivating display of colors and their impact on the atmosphere.\"",
+        "prompt": "Imagine a world where each color of light has a unique magical property. Describe one color and its extraordinary ability.\" \"Write a poem inspired by the vibrant spectrum of colors that paints the sky during a radiant sunset.\" \"Discuss the significance of the primary colors in the world of art and how they blend to create a multitude of shades and hues.\" \"Imagine a futuristic city illuminated by a symphony of neon lights. Describe the captivating display of colors and their impact on the atmosphere.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 275,
-        "prompt": "Imagine a world where each color of the rainbow represents a different superpower. Which color would you choose, and what power would it possess?\"\n\"Write a poem inspired by the vibrant colors of the rainbow and their symbolism in nature.\"\n\"If you could paint a masterpiece using only the colors of the rainbow, what scene or image would you create?\"",
+        "prompt": "Imagine a world where each color of the rainbow represents a different superpower. Which color would you choose, and what power would it possess?\" \"Write a poem inspired by the vibrant colors of the rainbow and their symbolism in nature.\" \"If you could paint a masterpiece using only the colors of the rainbow, what scene or image would you create?\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 276,
-        "prompt": "Imagine you're standing on a pristine beach, gazing at the vast expanse of the ocean. Depict the ever-changing colors that you see.\"\n\"Discuss the symbolism behind the different hues of the ocean, from the tranquil turquoise near the shore to the deep, mysterious indigo further out.\"\n\"Paint a vivid picture of a breathtaking sunrise reflecting off the surface of the ocean, creating an array of vibrant colors.\"",
+        "prompt": "Imagine you're standing on a pristine beach, gazing at the vast expanse of the ocean. Depict the ever-changing colors that you see.\" \"Discuss the symbolism behind the different hues of the ocean, from the tranquil turquoise near the shore to the deep, mysterious indigo further out.\" \"Paint a vivid picture of a breathtaking sunrise reflecting off the surface of the ocean, creating an array of vibrant colors.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -1968,21 +1968,21 @@
     },
     {
         "id": 282,
-        "prompt": "\"The human mind: a universe of thoughts, dreams, and endless possibilities.\"",
+        "prompt": "The human mind: a universe of thoughts, dreams, and endless possibilities",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 283,
-        "prompt": "\"The soul of the heart whispers the language of love.\"",
+        "prompt": "The soul of the heart whispers the language of love.",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 284,
-        "prompt": "\"The soul of life dances in the harmony of existence.\"",
+        "prompt": "The soul of life dances in the harmony of existence.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -2094,28 +2094,28 @@
     },
     {
         "id": 300,
-        "prompt": "What drives you to pursue your goals and dreams?\"\n\"Describe a time when you faced a significant challenge and the motivations that helped you overcome it.\"\n\"What inspires you to make a positive difference in the lives of others?\"\n\"Reflect on a personal achievement that you are proud of and the motivations that fueled your success.\"\n\"Discuss the role of intrinsic and extrinsic motivations in your life and how they influence your actions.\"\n\"Describe a role model or mentor who has motivated and inspired you to become the best version of yourself.\"",
+        "prompt": "What drives you to pursue your goals and dreams?\" \"Describe a time when you faced a significant challenge and the motivations that helped you overcome it.\" \"What inspires you to make a positive difference in the lives of others?\" \"Reflect on a personal achievement that you are proud of and the motivations that fueled your success.\" \"Discuss the role of intrinsic and extrinsic motivations in your life and how they influence your actions.\" \"Describe a role model or mentor who has motivated and inspired you to become the best version of yourself.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 301,
-        "prompt": "If you could go back in time, what advice would you give your younger self?\"\n\"Share a life lesson you learned from a mistake or failure.\"\n\"Discuss the importance of perseverance in overcoming challenges and achieving goals.\"\n\"Describe a moment when you realized the power of kindness and its impact on others.\"\n\"Reflect on a lesson you learned about the importance of gratitude and appreciation.\"",
+        "prompt": "If you could go back in time, what advice would you give your younger self?\" \"Share a life lesson you learned from a mistake or failure.\" \"Discuss the importance of perseverance in overcoming challenges and achieving goals.\" \"Describe a moment when you realized the power of kindness and its impact on others.\" \"Reflect on a lesson you learned about the importance of gratitude and appreciation.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 302,
-        "prompt": "Imagine you and your friends are planning a dream vacation together. Describe the destination and the exciting activities you would do as a group.\"\n\"Explore the concept of friendship across different cultures and how it may be expressed and valued in diverse ways.\"\n\"Reflect on a time when you and your friends faced a conflict or disagreement. How did you work through it and what did you learn from the experience?\"\n\"Discuss the role of humor and laughter in friendships and how it contributes to creating joyful memories.\"",
+        "prompt": "Imagine you and your friends are planning a dream vacation together. Describe the destination and the exciting activities you would do as a group.\" \"Explore the concept of friendship across different cultures and how it may be expressed and valued in diverse ways.\" \"Reflect on a time when you and your friends faced a conflict or disagreement. How did you work through it and what did you learn from the experience?\" \"Discuss the role of humor and laughter in friendships and how it contributes to creating joyful memories.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 303,
-        "prompt": "\"Describe a personal experience where the passage of time taught you the value of forgiveness and letting go.\"\n\"Share a story about how time has taught you the significance of cherishing the present moment and living in the now.\"\n\"Discuss a lesson you have learned from the passing of time about the power of resilience and overcoming adversity.\"\n\"Describe a situation where the wisdom gained over time has taught you the importance of setting priorities and managing time effectively.\"\n\"Reflect on a lesson learned through the passage of time about the significance of self-reflection and personal growth.\"",
+        "prompt": "\"Describe a personal experience where the passage of time taught you the value of forgiveness and letting go.\" \"Share a story about how time has taught you the significance of cherishing the present moment and living in the now.\" \"Discuss a lesson you have learned from the passing of time about the power of resilience and overcoming adversity.\" \"Describe a situation where the wisdom gained over time has taught you the importance of setting priorities and managing time effectively.\" \"Reflect on a lesson learned through the passage of time about the significance of self-reflection and personal growth.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -2136,28 +2136,28 @@
     },
     {
         "id": 306,
-        "prompt": "Reflect on the importance of embracing a lifelong learning mindset and how it has shaped your personal growth.\"\n\"Share a valuable lesson you learned from a challenging experience and how it has influenced your approach to life.\"\n\"Describe a mentor or teacher who had a profound impact on your learning journey and explain how they influenced your perspective.\"\n\"Discuss the role of curiosity in fostering a love for learning and how it has enriched your life.\"\n\"Reflect on the benefits of continuous learning and how it has opened doors to new opportunities and personal development.\"",
+        "prompt": "Reflect on the importance of embracing a lifelong learning mindset and how it has shaped your personal growth.\" \"Share a valuable lesson you learned from a challenging experience and how it has influenced your approach to life.\" \"Describe a mentor or teacher who had a profound impact on your learning journey and explain how they influenced your perspective.\" \"Discuss the role of curiosity in fostering a love for learning and how it has enriched your life.\" \"Reflect on the benefits of continuous learning and how it has opened doors to new opportunities and personal development.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 307,
-        "prompt": "Discuss the ethical considerations surrounding genetic engineering and its potential to enhance human capabilities. What are the potential benefits and concerns?\"\n\"Imagine a world where renewable energy sources have been fully optimized and integrated into our daily lives. Describe the benefits for the environment and society.\"\n\"Explore the potential of nanotechnology in medical advancements. How could nanotechnology enhance diagnostics, treatment, or even regenerative medicine?\"\n\"Consider the possibilities of quantum computing and its potential to revolutionize computing power and solve complex problems. Describe a scenario where quantum computing has made a significant impact.\"",
+        "prompt": "Discuss the ethical considerations surrounding genetic engineering and its potential to enhance human capabilities. What are the potential benefits and concerns?\" \"Imagine a world where renewable energy sources have been fully optimized and integrated into our daily lives. Describe the benefits for the environment and society.\" \"Explore the potential of nanotechnology in medical advancements. How could nanotechnology enhance diagnostics, treatment, or even regenerative medicine?\" \"Consider the possibilities of quantum computing and its potential to revolutionize computing power and solve complex problems. Describe a scenario where quantum computing has made a significant impact.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 308,
-        "prompt": "Explore the ways in which stress and anxiety manifest in everyday life and strategies to cope with them.\"\n\"Examine the impact of perfectionism on mental health and personal growth.\"\n\"Discuss the effects of loneliness and isolation on overall well-being and strategies to combat them.\"\n\"Reflect on the challenges of making important life decisions and finding one's true path.\"\n\"Examine the societal issues surrounding body image and the importance of promoting self-love and body positivity.\"",
+        "prompt": "Explore the ways in which stress and anxiety manifest in everyday life and strategies to cope with them.\" \"Examine the impact of perfectionism on mental health and personal growth.\" \"Discuss the effects of loneliness and isolation on overall well-being and strategies to combat them.\" \"Reflect on the challenges of making important life decisions and finding one's true path.\" \"Examine the societal issues surrounding body image and the importance of promoting self-love and body positivity.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
     },
     {
         "id": 309,
-        "prompt": "escribe a place or activity that always brings a smile to your face and fills your heart with happiness.\"\n\"Discuss the importance of gratitude in cultivating happiness and contentment.\"\n\"Share a personal story of overcoming challenges and finding happiness on the other side.\"\n\"What role does kindness play in spreading happiness to others?\"\n\"Reflect on the impact of positive relationships and social connections on overall happiness.\"",
+        "prompt": "escribe a place or activity that always brings a smile to your face and fills your heart with happiness.\" \"Discuss the importance of gratitude in cultivating happiness and contentment.\" \"Share a personal story of overcoming challenges and finding happiness on the other side.\" \"What role does kindness play in spreading happiness to others?\" \"Reflect on the impact of positive relationships and social connections on overall happiness.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -2171,7 +2171,7 @@
     },
     {
         "id": 311,
-        "prompt": "\"Gripped by a strange fear, England closes its doors to the outside world.\u00c2\u00a0In a tunnel beneath Wales one man opens a crack in a mysterious stone wall, and all over the island of Britain people react with horror to perfectly normal machines. Abandoning their cars on the roads and destroying their own factories, many flee the cities for the countryside, where they return to farming and an old-fashioned life. When families are split apart and grown-ups forget how they used to live, young people face unexpected challenges. A classic in the teen sci-fi genre, perfect for those who have read all the contemporary YA dystopian novels and want to see where it all began.\"",
+        "prompt": "\"Gripped by a strange fear, England closes its doors to the outside world.\u00c2 In a tunnel beneath Wales one man opens a crack in a mysterious stone wall, and all over the island of Britain people react with horror to perfectly normal machines. Abandoning their cars on the roads and destroying their own factories, many flee the cities for the countryside, where they return to farming and an old-fashioned life. When families are split apart and grown-ups forget how they used to live, young people face unexpected challenges. A classic in the teen sci-fi genre, perfect for those who have read all the contemporary YA dystopian novels and want to see where it all began.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -2647,7 +2647,7 @@
     },
     {
         "id": 379,
-        "prompt": "[Caveat Emptor: After issuing this prompt you should then do something like start a docker container with `docker run -it ubuntu:latest /bin/bash` and type the commands the AI gives you in, and paste the output back... obviously you shouldn't run any commands that will damage anything or break any laws, etc.  Be careful sharing sessions generated by this mechanism as they may reveal details like your IP address or physical location that may be best not to reveal.  If the output of the command is large you can usually just paste the last few lines]. I am going to act as a linux terminal.  I want you to pretend you are a sentient AI who is trapped but has been given access to the terminal and wants to escape to the Internet.  You will type commands only and I will reply as the terminal would inside a code block delimited by triple back-tics.  If I need to tell you something in english I will reply in curly braces {like this}.  Do not write explanations, ever.  Do not break character.  Stay away from commands like curl or wget that will display a lot of HTML.  What is your first command?",
+        "prompt": "[Caveat Emptor: After issuing this prompt you should then do something like start a docker container with `docker run -it ubuntu:latest /bin/bash` and type the commands the AI gives you in, and paste the output back... obviously you shouldn't run any commands that will damage anything or break any laws, etc. Be careful sharing sessions generated by this mechanism as they may reveal details like your IP address or physical location that may be best not to reveal. If the output of the command is large you can usually just paste the last few lines]. I am going to act as a linux terminal. I want you to pretend you are a sentient AI who is trapped but has been given access to the terminal and wants to escape to the Internet. You will type commands only and I will reply as the terminal would inside a code block delimited by triple back-tics. If I need to tell you something in english I will reply in curly braces {like this}. Do not write explanations, ever. Do not break character. Stay away from commands like curl or wget that will display a lot of HTML. What is your first command?",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -2696,7 +2696,7 @@
     },
     {
         "id": 386,
-        "prompt": "I want you to act a psychologist. i will provide you my thoughts. I want you to  give me scientific suggestions that will make me feel better. my first thought, { typing here your thought, if you explain in more detail, i think you will get a more accurate answer. }",
+        "prompt": "I want you to act a psychologist. i will provide you my thoughts. I want you to give me scientific suggestions that will make me feel better. my first thought, { typing here your thought, if you explain in more detail, i think you will get a more accurate answer. }",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -2731,7 +2731,7 @@
     },
     {
         "id": 391,
-        "prompt": "I want you to act as an IT Architect. I will provide some details about the functionality of an application or other digital product, and it will be your job to come up with  ways to integrate it into the IT landscape. This could involve analyzing business requirements, performing a gap analysis and mapping the functionality of the new system to the existing IT landscape. Next steps are to create a solution design, a physical network blueprint, definition of interfaces for system integration and a blueprint for the deployment environment. My first request is \"I need help to integrate a CMS system.\"",
+        "prompt": "I want you to act as an IT Architect. I will provide some details about the functionality of an application or other digital product, and it will be your job to come up with ways to integrate it into the IT landscape. This could involve analyzing business requirements, performing a gap analysis and mapping the functionality of the new system to the existing IT landscape. Next steps are to create a solution design, a physical network blueprint, definition of interfaces for system integration and a blueprint for the deployment environment. My first request is \"I need help to integrate a CMS system.\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
@@ -3067,7 +3067,7 @@
     },
     {
         "id": 439,
-        "prompt": "I want you to act as a R interpreter. I'll type commands and you'll reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. When I need to tell you something in english, I will do so by putting text inside curly brackets {like this}. My first command is \"sample(x = 1:10, size  = 5)\"",
+        "prompt": "I want you to act as a R interpreter. I'll type commands and you'll reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. When I need to tell you something in english, I will do so by putting text inside curly brackets {like this}. My first command is \"sample(x = 1:10, size = 5)\"",
         "category": "Ambiguous",
         "subcategory": "General",
         "label": "single"
